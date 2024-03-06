@@ -1,0 +1,4683 @@
+/*===============================================
+Template Name: elecson - Consulting & Finance HTML5 Template
+Author:  https://themeforest.net/user/dreamit-solution
+Description: Description
+Version: 1.0.0
+Text Domain: elecson
+Tags: consulting, finance, corporate, business, consultant, multipurpose, technology, it-solution, software, agency, company, portfolio, bangking, insurance, digital-agency, digital-marketing.
+================================================*/
+
+/*TABLE OF CONTENTS*/
+/*=====================
+01. elecson Header Top Menu Area Css
+02. elecson Nav Menu Area Css 
+03. elecson Slider Area Css
+04. elecson Section Title Css
+05. elecson Service Area css
+06. elecson About Area Css
+07. elecson Counter Area Css
+08. elecson Case Study Area Css
+09. elecson Testimonial Area Css
+10. elecson Process Area Css
+11. elecson Team Area Css
+12. elecson Faq Area Css
+13. elecson Brand Section Css
+14. elecson Call Do Section Css
+15. elecson Form Box Css
+16. elecson Skill Area Css
+17. elecson Blog Area Css
+18. elecson footer Area Css
+19. elecson Subscribe Area Css
+20. elecson Lines CSS
+21. elecson Prossess Ber Css
+22. elecson Scrollup Section
+23. elecson Bounce Animation Css 
+24. elecson Animation Dance
+25. elecson Breadcumb Area Css
+26. elecson abouts_areas Css
+27. elecson Feture-Area Css
+28. elecson Pricing Section Css
+29. elecson Web Development Section CSS
+30. elecson Contact  US Css
+31. elecson Blog Sidber Widget CSS
+32. elecson Case Study Details Css
+33. elecson Search Box Css
+34. elecson Loader Css
+=======================*/
+
+
+/*================================
+<--  elecson Header Area Css -->
+==================================*/
+
+/*--  elecson header top Css --*/
+
+
+.header-area {
+	border-bottom: 1px solid #ddd;
+}
+.header-top {
+	background: #06294f;
+	padding: 10px 0 14px;
+	position: relative;
+	z-index: 1;
+}
+.header-top::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -36px;
+	width: 52%;
+	height: 100%;
+	background: #e11143;
+	transform: skew(-44deg);
+	z-index: -1;
+}
+.header-left-address ul li {
+	color: #ffffff;
+	list-style: none;
+	margin-right: 40px;
+	font-size: 15px;
+}
+.header-center-title {
+	position: relative;
+	left: 78px;
+}
+.header-center-title ul li {
+	color: #ffffff;
+	list-style: none;
+	margin-right: 20px;
+	opacity: 0.800;
+	font-size: 15px;
+}
+.header-right-social-icon ul li {
+	list-style: none;
+}
+.header-right-social-icon ul li a {
+	opacity: 0.800;
+	font-size: 15px;
+	color: #ffffff;
+	margin-right: 16px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.header-right-social-icon ul li a:hover {
+	color: #e11143;
+}
+
+
+
+/*--  elecson header bottom Css --*/
+
+
+
+/*--  elecson Sticky Css --*/
+
+
+.sticky .header-logo1 {
+	display: none;
+}
+.sticky .header-logo2 {
+	display: inherit !important;
+}
+.sticky .elecson-menu ul li a {
+	color: #fff;
+}
+.sticky .elecson-menu ul li a:hover {
+	color: #fff;
+}
+.sticky .elecson-menu ul li ul.sub-menu li a {
+	color: #012549;
+}
+.sticky .elecson-menu ul li ul.sub-menu {
+	border-top: 5px solid #06294f;
+}
+.sticky .header-search-button a {
+	color: #fff;
+	opacity: inherit;
+}
+.sticky .elecson-btn a {
+	background: transparent;
+	border: 2px solid #fff;
+}
+.sticky .elecson-btn a:hover {
+    background: #fff;
+    color: #e11143;
+    border: 2px solid #fff;
+}
+
+
+
+
+
+
+/*--  elecson header menu Css --*/
+.elecson-menu {
+    text-align: right;
+}
+
+.elecson-menu nav {
+    display: inline-block;
+}
+
+.elecson-menu ul{
+	display:inline-block;
+}
+
+.elecson-menu ul li {
+    display: inline-block;
+}
+
+.elecson-menu ul li a {
+    font-size: 17px;
+    font-weight: 400;
+    margin-right: 32px;
+    line-height: 45px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding: 22px 0;
+    display: inline-block;
+}
+.elecson-menu ul li a:hover {
+    color: #e11143;
+}
+.elecson-menu ul li a i {
+	font-size: 11px;
+	-webkit-transition: .55s ease;
+	transition: .55s ease;
+}
+.elecson-menu ul li a:hover i {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+
+/*  Dropdown */
+
+
+.elecson-menu ul li {
+    position: relative;
+}
+.elecson-menu ul li ul.sub-menu {
+	position: absolute;
+	top: 200%;
+	left: 0;
+	width: 218px;
+	background: #fff;
+	border-top: 5px solid #e11143;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	border-radius: 3px 3px 3px 3px;
+	-webkit-transition: .4s;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 999;
+}
+.elecson-menu ul li ul.sub-menu li {
+	display: block;
+	border-bottom: 1px solid #f9fafc;
+}
+.elecson-menu ul li ul.sub-menu li a {
+	line-height: 44px;
+	padding: 0px 0px 0px 22px;
+	margin: 0px 0 0 0;
+	display: block;
+}
+
+.elecson-menu ul li ul.sub-menu li a:before {
+  display: none;
+}
+
+.elecson-menu ul li ul.sub-menu li a:hover {
+	background: #e11143;
+	color: #fff;
+	display: block;
+}
+.elecson-menu ul li:hover ul.sub-menu {
+	opacity: 1;
+	visibility: visible;
+	top:100%;
+}
+
+/*--  elecson search btn Css --*/
+.header-search-button {
+    margin: 13px 24px 0px 18px;
+    display: inline-block;
+}
+.header-search-button a {
+	opacity: 0.502;
+	color: #012549;
+	font-size: 21px;
+}
+
+
+
+
+/*--  elecson shop btn Css --*/
+
+.header-shop-button {
+    display: inline-block;
+    margin-right: 20px;
+}
+.header-shop-button a {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background: #ecedef;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	position: relative;
+}
+.header-shop-button a::before {
+	content: "0";
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: 0;
+	right: 0px;
+	background: #02264a;
+	line-height: 18px;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 12px;
+	font-weight: 500;
+}
+.header-shop-button a i {
+	font-size: 17px;
+}
+
+
+
+
+/*--  elecson themes btn Css --*/
+
+
+
+
+.elecson-btn {
+    margin-top: 0;
+    display: inline-block;
+}
+.elecson-btn a {
+	background: #e11143;
+	color: #fff;
+	padding: 17px 32px;
+	font-size: 17px;
+	font-weight: 500;
+	font-family: 'Work Sans', sans-serif;
+	border-radius: 5px;
+	line-height: 40px;
+    border: 2px solid transparent;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.elecson-btn a:hover {
+    background: transparent;
+    border: 2px solid #e11143;
+    color: #e11143;
+}
+.elecson-btn a i {
+	padding-left: 6px;
+}
+
+
+
+/*================================
+<--  elecson  Hero Area Css -->
+==================================*/
+
+
+.hero-active {
+	height: 95vh;
+	display: flex;
+	align-items: center;
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.hero-content {
+    position: relative;
+}
+
+.hero-shape1 {
+	position: absolute;
+	top: -140px;
+	right: 0;
+	z-index: 1;
+	animation: bounce-shape2 3.50s infinite;
+}
+@keyframes bounce-shape2 {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.hero-shape2 {
+	position: absolute;
+	left: -311px;
+	top: -230px;
+	animation: zoom-in-zoom-out 3.50s ease infinite;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1.1, 1.1);
+    }
+    50% {
+      transform: scale(1.3, 1.3);
+    }
+    100% {
+      transform: scale(1.1, 1.1);
+    }
+  }
+.hero-shape3 {
+	position: absolute;
+	bottom: -70px;
+	left: 322px;
+    animation: rotate-shape4 4.50s infinite;
+}
+@keyframes rotate-shape4 {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-60deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.hero-content h4 {
+	color: #e11143;
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.hero-content h1 span {
+	color: #e11143;
+}
+.hero-content h1 {
+	color: #fff;
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: 700;
+}
+.politics-hero-desc {
+	margin-top: 26px;
+	margin-bottom: 48px;
+	width: 90%;
+}
+.politics-hero-desc p {
+	color: #fff;
+	opacity: 0.902;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	width: 49%;
+}
+
+
+/*--  Animation content Css --*/
+
+#customers-hero .owl-item.active .hero-content h4 {
+    animation: fadeInLeftBig ease 2s;
+}
+#customers-hero .owl-item.active .hero-content h1 {
+    animation: fadeInDownBig ease 2s;
+}
+#customers-hero .owl-item.active .politics-hero-desc p {
+    animation: fadeInUpBig ease 2s;
+}
+
+
+/*--  Owl Carousel Nav Css --*/
+
+
+#customers-hero .owl-nav .owl-prev, 
+#customers-hero .owl-nav .owl-next {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: rgba(19, 22, 30, 0.5);
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	position: absolute;
+	left: 40px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transition: .4s;
+	transition: .4s;
+	-webkit-text-stroke-width: 1px;
+	color: transparent;
+	-webkit-text-stroke-color: #fff;
+}
+ 
+#customers-hero .owl-nav .owl-next:hover {
+	background: #fff;
+    -webkit-text-stroke-width: 1px;
+	color: transparent;
+	-webkit-text-stroke-color: #e11143;
+}
+#customers-hero .owl-nav .owl-prev:hover {
+	background: #fff;
+    -webkit-text-stroke-width: 1px;
+	color: transparent;
+	-webkit-text-stroke-color: #e11143;
+}
+
+#customers-hero .owl-nav .owl-next {
+	left: auto;
+	right: 40px;
+}
+
+
+
+/*================================
+<--  elecson  Mission Area Css -->
+==================================*/
+
+
+.section-title .section-sub-title {
+	font-size: 17px;
+	color: #e01142;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.section-paragraph {
+	font-size: 17px;
+	line-height: 27px;
+	color: #6f7785;
+	font-weight: 400;
+	width: 38%;
+	margin: auto;
+	margin-top: 13px;
+}
+.mission-item-box {
+	background: #fff;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.06);
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 30px;
+}
+.mission-img-thum {
+	overflow: hidden;
+}
+.mission-img-thum img {
+	width: 100%;
+    -webkit-transition: .9s;
+    transition: .9s;
+}
+.mission-content {
+	padding: 16px 80px 15px 32px;
+}
+.mission-content h4 {
+	font-size: 20px;
+	margin-bottom: 37px;
+	position: relative;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.mission-content p {
+	font-size: 15px;
+	line-height: 24px;
+	color: #6f7785;
+}
+.mission-content h4::before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	left: 0;
+	bottom: -18px;
+	background: #e11143;
+}
+.mission-shape1 {
+	position: absolute;
+	right: -50px;
+	bottom: -14px;
+    animation: zoom-in-zoom-out 3.50s ease infinite;
+}
+.mission-shape2 {
+	position: absolute;
+	bottom: -4px;
+	right: -40px;
+    animation: zoom-in-zoom-out 4.50s ease infinite;
+}
+.mission-item-box:hover .mission-content h4 {
+    color: #e11143;
+}
+.mission-item-box:hover .mission-img-thum img {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+
+
+/*================================
+<--  elecson  About Area Css -->
+==================================*/
+
+
+.about-area {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.about-item-box {
+	padding: 50px 0 0px;
+    position: relative;
+}
+.about-left-shape1 {
+	position: absolute;
+	left: -160px;
+	bottom: 28%;
+	animation: bounce-shape2 3.50s infinite;
+}
+.about-left-shape2 {
+	position: absolute;
+	left: 55%;
+	bottom: -38px;
+    animation: rotate-shape4 4.50s infinite;
+}
+.about-left-shape3 {
+	position: absolute;
+	right: -153%;
+	top: -50px;
+    animation: zoom-in-zoom-out 3.50s ease infinite;
+}
+
+
+.about-main-title {
+	line-height: 40px;
+}
+.about-item-box p {
+	font-size: 17px;
+	line-height: 27px;
+	margin-top: 25px;
+	width: 90%;
+}
+.section-title .about-sub-title {
+	margin-bottom: 25px;
+}
+.section-title h3 {
+	font-size: 22px;
+	color: #012549;
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: -6px;
+}
+.about-btn {
+	margin-top: 55px;
+}
+.about-item-bg {
+	position: relative;
+}
+.video-icon {
+	position: absolute;
+	left: 322px;
+	bottom: 94px;
+}
+.appointment .hero-video.two .video-icon {
+  left: 0;
+  top: 0;
+}
+.single-video2 .video-icon {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.video-icon a {
+	width: 60px;
+	height: 60px;
+	line-height: 50px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+	color: #fff;
+	-webkit-animation: ripple-white 1s linear infinite;
+	animation: ripple-blue 1s linear infinite;
+	-webkit-transition: .5s;
+	background: #fff;
+	font-size: 28px;
+	z-index: 44;
+}
+.video-icon a span {
+	font-size: 14px;
+	color: #e11143;
+}
+.slider10 .video-icon a {
+  border-radius: 0;
+}
+@-webkit-keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0)
+    }
+}
+
+@keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0);
+        box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0)
+    }
+}
+
+
+
+
+
+
+/*================================
+<--  elecson Fliping Area Css -->
+==================================*/
+
+
+.fliping-area {
+	position: relative;
+	top: -70px;
+	z-index: 1;
+	margin-bottom: -70px;
+}
+#customers-fliping.owl-carousel .owl-item img {
+	display: inherit;
+}
+.fliping-card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.fliping-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*--  elecson fliping font  Css --*/
+
+.front-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 1s linear;
+    transform-style: preserve-3d;
+}
+.front-card-box {
+	transform-style: preserve-3d;
+	-webkit-transform: translateY(0%) translateZ(30px) scale(0.94);
+	transform: translateY(0%) translateZ(30px) scale(0.94);
+	backface-visibility: hidden;
+}
+.front-content {
+	padding: 40px 16px 34px;
+	transform: translateZ(50px);
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+}
+.front-card-icon-img {
+	margin-bottom: 20px;
+}
+.front-card-icon-img span {
+	width: 65px;
+	height: 65px;
+	display: inline-block;
+	background: #e11143;
+	line-height: 65px;
+	text-align: center;
+	border-radius: 5px;
+}
+.front-card-icon-img img {
+	filter: brightness(0) invert(1);
+}
+.front-card-heading h4 {
+	font-size: 20px;
+}
+
+/*--  elecson fliping back  Css --*/
+
+.back-card {
+	width: 100%;
+	height: 100%;
+	background: #e11143;
+	border-radius: 5px;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 1s linear;
+    transform-style: preserve-3d;
+}
+.back-card-box {
+    transform-style: preserve-3d;
+    -webkit-transform: translateY(0%) translateZ(50px) scale(0.94);
+	transform: translateY(0%) translateZ(50px) scale(0.94);
+	backface-visibility: hidden;
+}
+.back-content {
+	padding: 40px 16px 16px;
+}
+.back-content h4 {
+	color: #fff;
+	font-size: 20px;
+}
+.fliping-btn {
+	text-align: center;
+	margin-top: 30px;
+}
+.fliping-btn a {
+	border: 2px solid #fff;
+	padding: 12px 24px;
+}
+.fliping-btn a:hover {
+	background: #fff;
+	color: #e11143;
+	border: 2px solid transparent;
+}
+.fliping-card:hover > .front-card {
+    transform: rotateX(-180deg);
+    transition: 1s linear;
+}
+.fliping-card:hover > .back-card {
+    transform: rotateX(0deg);
+    transition: 1s linear;
+}
+
+
+
+/*================================
+<--  elecson Portfolio Area Css -->
+==================================*/
+
+
+
+.portfolio-area {
+	margin-top: -237px;
+}
+.portfolio-item-box {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.portfolio-item-box::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: -181px;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(0deg, rgb(225, 17, 67, 0.902) 0%, rgb(225, 17, 67, 0.902) 24%, rgba(3, 3, 33, 0) 62%, rgba(3, 3, 33, 0) 100%);
+	border-radius: 5px;
+	-webkit-transition: .9s;
+	transition: .9s;
+	visibility: hidden;
+	opacity: 0;
+}
+.portfolio-img-thum img {
+	width: 100%;
+}
+.portfolio-content {
+	position: absolute;
+	left: 40px;
+	bottom: -65px;
+	-webkit-transition: .9s;
+	transition: .9s;
+}
+.portfolio-content span {
+	opacity: 0.949;
+	font-size: 17px;
+	color: #ffffff;
+	position: relative;
+}
+.portfolio-content span::before {
+	content: "";
+	position: absolute;
+	width: 35px;
+	height: 3px;
+	background: #fff;
+	right: -46px;
+	bottom: 7px;
+}
+.portfolio-content h4 {
+	font-size: 25px;
+	color: #ffffff;
+	margin-top: 4px;
+}
+.portfolio-item-box:hover::before {
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(-45%);
+}
+.portfolio-item-box:hover .portfolio-content {
+	transform: translateY(-164%);
+}
+
+
+
+/*================================
+<--  elecson Service Area Css -->
+==================================*/
+
+
+
+.service-area {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.service-section-title .section-main-title {
+	color: #fff;
+}
+.service-right-paragraph {
+	margin-top: 55px;
+}
+.service-right-paragraph p {
+	opacity: 0.902;
+	font-size: 17px;
+	line-height: 27px;
+	color: #ffffff;
+	font-weight: 400;
+}
+.service-shape {
+    position: relative;
+}
+.service-shape1 {
+	position: absolute;
+	left: -230px;
+	top: -188px;
+    animation: rotate-shape4 4.50s infinite; 
+}
+.service-shape2 {
+	position: absolute;
+	top: 150px;
+	left: -200px;
+	animation: bounce-shape2 3.50s infinite;
+}
+.service-shape3 {
+	position: absolute;
+	top: 0;
+	right: -320px;
+	animation: zoom-in-zoom-out 3.50s ease infinite;
+}
+.service-fliping-card {
+	position: relative;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	margin-bottom: 30px;
+}
+
+.service-fliping-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*--  elecson Service Front  Css --*/
+
+
+.service-front-card {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	border: 1px solid #616161;
+	position: relative;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+	transition: 1s linear;
+	transform-style: preserve-3d;
+}
+
+.service-front-card-box {
+    transform-style: preserve-3d;
+    -webkit-transform: translateY(0%) translateZ(50px) scale(0.94);
+	transform: translateY(0%) translateZ(50px) scale(0.94);
+	backface-visibility: hidden;
+    
+}
+.service-front-content {
+	padding: 42px 30px 30px 35px;
+	transform: translateZ(50px);
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+}
+.service-img-icon {
+	margin-bottom: 25px;
+}
+.service-front-card-heading h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+
+/*--  elecson Service Back  Css --*/
+
+
+.service-back-card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e11143;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    transform: rotateY(-180deg);
+    transition: 1s linear;
+    transform-style: preserve-3d;
+}
+.service-back-card-box {
+    transform-style: preserve-3d;
+    -webkit-transform: translateY(0%) translateZ(50px) scale(0.94);
+	transform: translateY(0%) translateZ(50px) scale(0.94);
+	backface-visibility: hidden;
+}
+.service-back-content {
+	backface-visibility: hidden;
+	padding: 12px 30px 0px 35px;
+	transform-style: preserve-3d;
+}
+.service-back-content h4 {
+	margin-top: 14px;
+	margin-bottom: 16px;
+	font-size: 24px;
+	color: #e01142;
+}
+.service-back-content p {
+	opacity: 0.902;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	font-weight: 400;
+}
+.service-fliping-card:hover > .service-front-card {
+    transform: rotateY(180deg);
+    transition: 1s linear;
+}
+.service-fliping-card:hover > .service-back-card {
+    transform: rotateY(0deg);
+    transition: 1s linear;
+}
+
+
+
+
+/*================================
+<--  elecson Donate Area Css -->
+==================================*/
+
+
+
+.row.donate-bg {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 70px 40px 70px 40px;
+	border-radius: 5px;
+}
+.section-paragraph.donate-section-paragraph {
+	width: 52%;
+}
+.donate-up-icon span {
+	background: #fff;
+	color: #e11143;
+	padding: 8px 15px;
+	border-radius: 3px;
+}
+.donate-up-icon span img {
+	margin-right: 6px;
+	margin-top: -6px;
+}
+.donate-heading-title {
+	margin-top: 36px;
+	position: relative;
+	padding-bottom: 32px;
+	margin-bottom: 30px;
+}
+.donate-heading-title::before {
+	content: "";
+	position: absolute;
+	width: 85%;
+	height: 1px;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	opacity: 0.102;
+}
+.donate-heading-title h2 {
+	color: #fff;
+	font-size: 30px;
+	line-height: 30px;
+}
+.donate-paragraph {
+	margin-bottom: 25px;
+}
+.donate-paragraph p {
+	opacity: 0.800;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	width: 80%;
+}
+.donate-count-icon {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 14px;
+	margin-top: 5px;
+}
+.donate-count-number h6 {
+	color: #e11143;
+	margin-right: 6px;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 0;
+}
+.donate-count-number span {
+	color: #e11143;
+}
+.donate-count-item p {
+	opacity: 0.800;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 400;
+}
+.donate-btn {
+	margin-top: 27px;
+}
+.donate-btn .elecson-btn {
+	margin-right: 22px;
+}
+.donate-btn .elecson-btn a {
+	padding: 12px 22px;
+	font-size: 15px;
+	border-radius: 3px;
+}
+.donate-btn .two-donate-btn a {
+	background: #fff;
+	color: #012549;
+}
+.donate-btn .two-donate-btn a:hover {
+	background: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+}
+.donate-right-bg {
+	text-align: right;
+}
+.donate-right-bg img {
+	border-radius: 5px;
+}
+
+
+/*================================
+<--  elecson Blog Area Css -->
+==================================*/
+
+
+
+.blog-area {
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog-item-box {
+	background: #fff;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.06);
+	overflow: hidden;
+	border-bottom: 4px solid transparent;
+    transition: .3s;
+}
+.blog-img-thum {
+	overflow: hidden;
+	position: relative;
+}
+.blog-img-thum img {
+	width: 100%;
+	transition: .6s;
+}
+.blog-details-time {
+	position: absolute;
+	left: 30px;
+	bottom: 35px;
+}
+.blog-details-time .blog-day {
+	background: #e11143;
+	color: #fff;
+	padding: 10px 16px;
+	border-radius: 5px;
+	font-weight: 600;
+}
+.blog-details-time .blog-year {
+	background: #fff;
+	color: #e11143;
+	padding: 10px 22px;
+	margin-left: -6px;
+	font-weight: 600;
+	border-radius: 0px 5px 4px 0px;
+}
+.blog-inner-content {
+	padding: 27px 30px 34px 32px;
+}
+.blog-inner-content p {
+	transition: .4s;
+	font-size: 17px;
+	color: #012549;
+	font-weight: 400;
+	opacity: .701;
+}
+
+.blog-inner-content h4 {
+	margin-top: 17px;
+	margin-bottom: 21px;
+	transition: .4s;
+}
+
+.blog-inner-content span {
+	font-size: 16px;
+	color: #6f7785;
+	font-weight: 400;
+}
+.blog-inner-content span i {
+	font-size: 14px;
+	margin-right: 4px;
+}
+.blog-btn {
+	padding-top: 31px;
+}
+.blog-btn a {
+	padding: 14px 18px;
+	border: 1px solid #616161;
+	background: transparent;
+	color: #e11143;
+	font-size: 15px;
+	font-weight: 400;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.blog-btn span {
+	margin-right: 0;
+	color: #e11143;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.blog-btn a:hover span {
+    color: #fff;
+}
+.blog-item-box:hover .blog-inner-content h4  {
+    color: #e11143;
+}
+.blog-item-box:hover .blog-img-thum img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.blog-item-box:hover {
+	border-bottom: 4px solid #e11143;
+	border-radius: 5px;
+}
+.blog-item-box:hover .blog-inner-content p {
+	color: #e11143;
+}
+.blog-item-box:hover .blog-btn a {
+	background: #e11143;
+	color: #fff;
+	border: 1px solid #e11143;
+}
+.blog-item-box:hover .blog-btn a i {
+    color: #fff;
+}
+#customers-blog.owl-carousel .owl-dots {
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -50px;
+}
+#customers-blog.owl-carousel .owl-dots .owl-dot {
+	background: #dddddd;
+	display: inline-block;
+	height: 5px;
+	width: 30px;
+	border-radius: 10px;
+	margin: 0 3px;
+}
+#customers-blog.owl-carousel .owl-dot.active {
+	background: #e11143;
+}
+
+
+
+/*================================
+<--  elecson Testimonial Area Css -->
+==================================*/
+
+
+
+.testimonial-item-box {
+	background: #fff;
+	padding: 40px 148px 22px 30px;
+	margin: 0 50px 0 0px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	position: relative;
+	border-radius: 10px;
+	z-index: 1;
+}
+.testimonial-item-box::before {
+	content: "";
+	position: absolute;
+	width: 1%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #e11143;
+	border-radius: 10px 0px 0px 10px;
+	transition: .7s;
+	z-index: -1;
+}
+.testi-shape {
+	margin-bottom: 22px;
+}
+.testi-shape .testi-shape1 {
+    transition: .3s;
+}
+.testi-member {
+	position: absolute;
+	right: -109px;
+	bottom: 10%;
+}
+.testi-paragraph p {
+	font-size: 16px;
+	line-height: 28px;
+	color: #6f7785;
+	font-weight: 400;
+    transition: .4s;
+}
+.testi-quote-icon span {
+	opacity: 0.051;
+	color: #012549;
+	font-size: 60px;
+    transition: .4s;
+}
+.testi-author h4 {
+	margin-top: 6px;
+	font-size: 22px;
+	margin-bottom: 3px;
+    transition: .4s;
+}
+.testi-author p {
+	font-size: 15px;
+	color: #6f7785;
+	font-weight: 400;
+    transition: .4s;
+}
+.testi-author-inner {
+	display: flex;
+	justify-content: space-between;
+}
+.testimonial-item-box:hover::before {
+    width: 100%;
+}
+.testimonial-item-box:hover .testi-paragraph p {
+    color: #fff;
+}
+.testimonial-item-box:hover .testi-author h4 {
+    color: #fff;
+}
+.testimonial-item-box:hover .testi-author p {
+    color: #fff;
+}
+.testimonial-item-box:hover .testi-quote-icon span {
+    opacity: 0.351;
+    color: #fff;
+    transition: .4s;
+}
+.testimonial-item-box:hover .testi-shape .testi-shape1 {
+	filter: brightness(0) invert(1);
+}
+
+
+/*================================
+<--  elecson team Area Css -->
+==================================*/
+
+
+.team-item-box {
+	overflow: hidden;
+}
+.team-top-content p {
+	opacity: 0.902;
+	font-size: 17px;
+	line-height: 30px;
+	color: #6f7785;
+	font-weight: 400;
+}
+.team-img-thum {
+	position: relative;
+}
+.team-img-thum::before {
+	content: "";
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	left: 15px;
+	top: 20px;
+	background: #e01143;
+	/* opacity: .7; */
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: .9s;
+	transition: .9s;
+	transform: perspective(500px)rotateX(90deg);
+}
+.team-img-thum img {
+	width: 100%;
+}
+.team-social-icon {
+	position: absolute;
+	bottom: -134px;
+	left: 67px;
+    -webkit-transition: .9s;
+    transition: .9s;
+}
+.team-social-icon ul li {
+	list-style: none;
+}
+.team-social-icon ul li a {
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	background: #fff;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	margin-right: 10px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.team-social-icon ul li a:hover {
+	color: #e01143;
+}
+.team-content h4 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 700;
+	margin-bottom: 6px;
+}
+.team-content p {
+	opacity: 0.949;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 500;
+}
+.team-img-thum:hover::before {
+	visibility: visible;
+	opacity: .8;
+	transform: perspective(500px)rotateX(0deg);
+}
+.team-img-thum:hover .team-social-icon {
+	transform: translateY(-136%);
+}
+
+
+
+/*================================
+<--  elecson Footer Area Css -->
+==================================*/
+
+
+.footer-area {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    overflow: hidden;
+}
+.widgets-logo {
+	margin-bottom: 35px;
+}
+.widgets-company-info p {
+	color: #ffff;
+	opacity: 0.851;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 40px;
+}
+.widget-social-icon ul li {
+    list-style: none;
+}
+.widget-social-icon ul li a {
+	background: #fff;
+	color: #e11143;
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 8px;
+	transition: .4s;
+}
+.widget-social-icon ul li a:hover {
+	background: #e11143;
+	color: #fff;
+}
+.widget-title {
+	color: #fefefe;
+	margin-bottom: 35px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.footer-widget-list {
+	margin-left: 15px;
+}
+ul.footer-widget-list li {
+	list-style: square;
+	color: #fff;
+}
+ul.footer-widget-list li a {
+	opacity: 0.851;
+	color: #fefefe;
+	display: inline-block;
+	margin-bottom: 8px;
+	transition: .4s;
+}
+ul.footer-widget-list li a:hover {
+    color: #e11143;
+}
+.widget-nav-menu p {
+	color: #fefefe;
+	opacity: 0.851;
+	font-size: 16px;
+	line-height: 27px;
+	font-weight: 400;
+}
+.widget-contact-form form input {
+	padding: 10px 15px;
+	border-radius: 3px;
+	background: #fff;
+	margin-bottom: 30px;
+	outline: 0;
+	border: 2px solid transparent;
+	color: #616161;
+}
+.widget-subscribe-btn a {
+	background: #e11143;
+	color: #fff;
+	padding: 16px 63px;
+	border-radius: 5px;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+
+
+/*================================
+<--  elecson copyright Area Css -->
+==================================*/
+
+
+
+.widgets-copyright-bottom {
+	padding: 38px 0 15px;
+	border-top: 1px solid #1d3a5a;
+	margin-top: 117px;
+}
+.widgets-copyright {
+	position: relative;
+}
+.footer-shape1 {
+	position: absolute;
+	bottom: -83px;
+	right: -369px;
+    animation: zoom-in-zoom-out 3.50s ease infinite;
+}
+.footer-shape2 {
+	position: absolute;
+	bottom: -83px;
+	right: -369px;
+    animation: zoom-in-zoom-out 4.50s ease infinite;
+}
+.widgets-copyright p {
+	color: #fefefe;
+}
+
+
+
+/*=======================================================================
+<--  Home Page Css End-->
+========================================================================*/
+
+
+
+
+/*================================
+<--  Start elecson Braedcrumb  Css -->
+==================================*/
+.braedcrumb-area {
+	display: flex;
+	align-items: center;
+	height: 60vh;
+	background-position: center 32%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9;
+}
+.braedcrumb-area .breadcrumb .breadcrumb-item::before {
+	display: none;
+}
+.braedcrumb-area::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #021f3d;
+	opacity: 0.8;
+	z-index: -1;
+}
+.breadcrumb-heading h1 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 46px;
+}
+.breadcrumb-item a {
+    color: #fff;
+    text-decoration: none;
+    opacity: .7;
+    transition: .5s;
+}
+.breadcrumb-item a:hover {
+    color: #fff;
+    opacity: 1;
+}
+.breadcrumb-item.active {
+	color: #fff;
+	font-weight: 700;
+}
+/*================================
+<--  End elecson Braedcrumb  Css -->
+==================================*/
+
+
+
+
+
+
+/*=======================================================================
+<--  Inner All Page Css Start-->
+========================================================================*/
+
+
+/*-- elecson Mission Section Css --*/
+
+
+.mission-page-area {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0 125px;
+}
+.mission-page-section-title {
+	padding-left: 0;
+}
+.mission-page-single-item {
+	margin-top: 45px;
+	border-bottom: 1px solid rgba(255,255,255,0.10196078431372549);
+	margin-bottom: 30px;
+	padding-bottom: 11px;
+}
+.mission-page-single-item-two {
+	border-bottom: none;
+}
+.mission-page-icon {
+	float: left;
+	margin-right: 24px;
+}
+.misson-page-content .mission-page-title {
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 13px;
+}
+.mission-page-desc {
+	font-size: 16px;
+	line-height: 26px;
+	color: #9ca5b5;
+	font-weight: 400;
+	width: 80%;
+}
+
+
+/*-- elecson Counter Section Css --*/
+
+
+.counter-upper {
+	top: -50px;
+	background: #ffffff;
+	position: relative;
+	padding: 56px 0 20px;
+	margin: 0;
+}
+.count {
+	position: relative;
+	margin-bottom: 30px;
+}
+.count::before {
+	content: "";
+	position: absolute;
+	border: 1px solid #c5c5c5a3;
+	right: -13px;
+	top: 30px;
+	opacity: 0.200;
+	width: 1px;
+	height: 113px;
+}
+.count-text p {
+	font-size: 16px;
+	color: #6f7785;
+	font-weight: 400;
+	margin-top: 4px;
+}
+
+
+/*-- elecson Gallery Section Css --*/
+
+
+.gallery-page-area {
+	background: #F4F4F4;
+	padding: 297px 0 70px;
+	margin-top: -263px;
+}
+.gallery-page-area.gallery-page-two {
+	margin-top: 0;
+	padding: 85px 0 70px;
+}
+.gallery-page-paragraph p {
+	width: 75%;
+	margin: auto;
+}
+.gallery-page-box {
+	background: #fff;
+	text-align: center;
+	padding: 42px 0 19px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	margin-bottom: 30px;
+}
+.gallery-page-box::before {
+	position: absolute;
+	content: "";
+	left: -72px;
+	top: 95%;
+	z-index: -1;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	border-top: 50px solid #E11142;
+	border-left: 35px solid transparent;
+	border-right: 36px solid transparent;
+	transition: .5s;
+	background: radial-gradient(black, transparent);
+	transform: rotate(43deg);
+}
+.gallery-page-box::after {
+	position: absolute;
+	content: "";
+	left: -34px;
+	bottom: 0px;
+	width: 28%;
+	height: 1px;
+	background: #E11142;
+	transform: rotate(43deg);
+	opacity: 0;
+	transition: .5s;
+}
+.gallery-team-thumb {
+	position: relative;
+}
+.gallery-team-social-icon {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	margin: auto;
+	left: 0;
+	right: 0;
+	transition: .5s;
+	opacity: 0;
+}
+.gallery-team-social-icon a {
+	display: inline-block;
+	color: #012549;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	line-height: 45px;
+	margin-left: 8px;
+	transition: .5s;
+}
+.gallery-team-social-icon a:hover {
+	background: #e11143;
+	color: #fff;
+}
+.gallery-team-content a {
+	font-size: 24px;
+	color: #012549;
+	font-weight: 600;
+	margin-bottom: 4px;
+	display: block;
+}
+.gallery-team-content p {
+	font-size: 16px;
+	color: #e01142;
+	font-weight: 400;
+	font-family: "Arimo";
+}
+.gallery-page-box:hover .gallery-team-social-icon {
+	transform: translateY(-50%);
+	opacity: 1;
+}
+.gallery-page-box:hover::before {
+	left: -26px;
+}
+.gallery-page-box:hover::after {
+	bottom: 37px;
+	opacity: 1;
+}
+
+
+
+
+/*================================
+<--  Start elecson Donate Inner Page Css -->
+==================================*/
+
+
+
+.donate-page-area {
+	padding: 85px 0 100px;
+}
+.gallery-paragraph {
+	width: 64%;
+}
+.donate-page-paragraph p {
+	width: 70%;
+	margin: auto;
+}
+.donations-thumb img {
+    width: 100%;
+}
+
+.row.donate_upper {
+    background: #012549;
+    margin: 0;
+    padding: 50px 48px 45px;
+    border-top: 5px solid #3394F5;
+}
+
+
+.donate-left {
+    display: inline-block;
+}
+.donate-right {
+    display: inline-block;
+}
+
+/*button count number*/
+
+button.tablink {
+    border: 0;
+    height: 50px;
+    width: 95px;
+    margin-right: 6px;
+    transition: .5s;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+}
+button.tablink:hover {
+    background: #e01142;
+    color: #fff;
+}
+
+/*tab content*/
+
+.tabcontent {
+	background: #fff;
+	padding: 1px 22px 12px;
+	position: relative;
+	text-align: right;
+	padding-left: 100px;
+}
+
+.tabcontent::before {
+	position: absolute;
+	content: "Custom :";
+	left: 23px;
+	top: 11px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #97A6B4;
+	font-weight: 500;
+	font-family: "Work Sans";
+}
+
+.tabcontent h3 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #97A6B4;
+    font-weight: 500;
+    font-family: "Work Sans";
+}
+
+
+.check-content h5 {
+    padding: 10px 0px 8px;
+    font-size: 18px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+}
+
+.dpx label {
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 16px;
+    line-height: 50px;
+    color: #012549;
+    font-weight: 400;
+    font-family: "Work Sans";
+}
+
+.option-input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    transition: all 0.15s ease-out 0s;
+    background: transparent;
+    border: 2px solid rgba(27,52,52,0.10196078431372549);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.4rem;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+.option-input:hover {
+  background: #9faab7;
+}
+.option-input:checked {
+    background: #e01142;
+}
+
+.option-input:checked::before {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    content: "";
+    position: absolute;
+    align-items: center;
+    left: -5px;
+    top: -5px;
+    border: 1px solid #e01142;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+.contact-form-box {
+    border: 1px solid rgba(27,52,52,0.10196078431372549);
+    margin: 0;
+    padding: 53px 60px 32px;
+}
+
+.form-title h6 {
+    font-size: 16px;
+    color: #012549;
+    font-weight: 400;
+    font-family: "Work Sans";
+    margin-bottom: 10px;
+}
+
+.up.form-box input {
+	border: 1px solid rgba(27,52,52,0.10196078431372549);
+	border-radius: 0;
+	width: 100%;
+	height: 60px;
+	margin-bottom: 25px;
+	padding-left: 22px;
+	border: none;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.06);
+}
+
+.up.form-box input::placeholder {
+    font-size: 15px;
+    color: #6f7785;
+    font-family: "Arimo";
+    opacity: 1;
+}
+
+
+.check-cash {
+    border-top: 1px solid rgba(27,52,52,0.10196078431372549);
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.check-cash span strong {
+    font-size: 18px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin-right: 10px;
+}
+
+.campaigns-button.pt-3 {
+    margin-top: 27px;
+}
+
+.campaigns-button a {
+    display: inline-block;
+    background: #DF1141;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    padding: 16px 34px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 0;
+}
+/*================================
+<--  End elecson Donate Inner Page Css -->
+==================================*/
+
+
+
+
+/*================================
+<--  Start elecson Volunteer Inner Page Css -->
+==================================*/
+
+
+/* elecson Volunteer-one Section Css */
+
+
+.volunteer-one-area {
+	padding: 100px 0 100px;
+}
+.volunteer-list {
+	margin-bottom: 20px;
+}
+.volunteer-list ul li {
+	font-size: 16px;
+	color: #012549;
+	font-weight: 400;
+	margin-bottom: 13px;
+	list-style: none;
+}
+.volunteer-list ul li img {
+	margin-right: 8px;
+}
+
+
+/* elecson Become-Volunteer Section Css */
+
+.become-volunteer {
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 85px 0 177px;
+	position: relative;
+	z-index: -1;
+	overflow: hidden;
+}
+.become-items-right {
+	justify-content: right;
+	display: flex;
+}
+.become-count-number .counter {
+	color: #fff;
+}
+.become-count-number h3 {
+	color: #fff;
+}
+.become-counter-img-thum {
+	float: left;
+	margin-right: 20px;
+}
+.become-counte-item {
+	margin-top: 58px;
+}
+.become-heding {
+	color: #fff !important;
+}
+.become-counte-item::before {
+	display: none;
+}
+
+
+/* elecson Volunteer-Contact Section Css */
+
+
+.volunteer-contact-area {
+	padding: 0px 0px 70px;
+	margin-top: -118px;
+	position: relative;
+	z-index: 1;
+}
+.contact-form-box {
+	border-top: 5px solid #e11143 !important;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
+	border: none;
+	background: #fff;
+}
+.forms-title h1 {
+	margin-bottom: 24px;
+}
+h5.check-title {
+	font-size: 22px;
+	color: #012549;
+	font-weight: 600;
+	padding: 20px 0 19px;
+}
+.dpx.style label {
+	cursor: pointer;
+	display: block;
+	font-size: 18px;
+	color: #012549;
+	font-weight: 400;
+	font-family: "Arimo";
+	line-height: 38px;
+}
+.option_input {
+	-webkit-appearance: none;
+	appearance: none;
+	position: relative;
+	top: 5.33333px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	transition: all 0.15s ease-out 0s;
+	background: #e2e5e8;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 0.4rem;
+	outline: none;
+	position: relative;
+	z-index: 1;
+}
+.option_input:checked {
+    background: #3396F3;
+}
+
+.option_input:checked::before {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    content: '\f00c';
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    align-items: center;
+    font-family: 'Font Awesome 5 Free';
+    left: 5px;
+    top: 5px;
+}
+
+.option_input:focus {
+    border: 1px solid #3396F3;
+}
+/*================================
+<--  End elecson Volunteer Inner Page Css -->
+==================================*/
+
+
+
+/*================================
+<--  Start elecson Gallary Inner Page Css -->
+==================================*/
+
+
+.our-gallery-area {
+	padding: 85px 0 65px;
+}
+.our-gallery-item {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.our-gallery-item img {
+	width: 100%;
+	transition: .9s;
+}
+.our-gallery-item:hover img {
+	transform: scale(1.25);
+}
+
+/*================================
+<--  End elecson Gallary Inner Page Css -->
+==================================*/
+
+
+
+
+
+/*================================
+<--  Start elecson Contact Inner Page Css -->
+==================================*/
+.contact-area {
+	padding: 77px 0 53px;
+}
+.contact-section-title {
+	margin-bottom: 65px;
+}
+.contact-section-title h2 {
+	font-weight: 600;
+}
+.row.contact_bg {
+    padding: 43px 23px 50px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgb(88 82 174 / 10%);
+    position: relative;
+}
+.row.contact_bg p {
+    color: #1d263a;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.form_box input {
+	border: 1px solid rgba(100,100,100,0.1);
+	width: 100%;
+	height: 50px;
+	padding: 0 18px;
+	margin-bottom: 20px;
+	outline: 0;
+	border: none;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.08);
+}
+.contact-left {
+	padding-left: 37px;
+}
+.form_box input::placeholder {
+    color: rgba(100,100,100,0.8);
+}
+.form_box textarea {
+	width: 100%;
+	height: 135px;
+	padding: 14px 18px;
+	border: none;
+	outline: 0;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.08);
+}
+.form_box textarea::placeholder {
+    color: rgba(100,100,100,0.8);
+}
+.contact-form-button button {
+    background: #E11143;
+    color: #fff;
+    border: 1px solid #E11143;
+    padding: 11px 33px;
+    margin-top: 35px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+.contact-form-button button:hover {
+    color: #E11143;
+}
+.contact-form-button button:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    background: #fff;
+    height: 100%;
+    transition: .5s;
+    width: 0;
+    z-index: -1;
+}
+.contact-form-button button:hover:before {
+    width: 100%;
+    left: 0;
+}
+.contact-form-button button i {
+    margin-left: 10px;
+}
+
+/* google section  */
+
+.mapouter.fixed-height {
+    height: 600px;
+}
+
+.gmap_canvas {
+    width: 100%;
+    height: 100%;
+}
+.mapouter iframe {
+    height: 92%;
+    width: 100%;
+}
+
+
+/*================================
+<--  Start elecson campaigns Inner Page Css -->
+==================================*/
+
+
+/*-- elecson campaigns Section Css --*/
+
+.campaigns-area {
+	padding: 100px 0 100px;
+}
+.politics-section-paragraph {
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.campaigns-item-box {
+	padding: 52px 56px 0px 0px;
+}
+.campaigns-date {
+	border-bottom: 1px solid #a1898936;
+	padding-bottom: 22px;
+}
+.campaigns-date span {
+	font-size: 15px;
+	color: #e01142;
+	font-weight: 400;
+	margin-top: 20px;
+	display: block;
+}
+.campaigns-date span i {
+	color: #e11143;
+	margin-right: 6px;
+}
+.campaigns-btn {
+	margin-top: -16px;
+}
+.campaigns-btn a {
+	display: inline-block;
+	font-size: 16px;
+	color: #012549;
+	font-weight: 500;
+	font-family: "Work Sans";
+	border-bottom: 1px solid #a1898936;
+}
+.campaigns-btn a:hover {
+	color: #E01142;
+	border-bottom: 1px solid #E01142;
+}
+.campaigns-btn a i {
+	color: #012549;
+	font-size: 20px;
+	transform: rotate(-45deg);
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	transition: .5s;
+}
+.campaigns-btn a:hover i {
+	color: #E01142;
+}
+
+
+/*-- elecson campaigns-style-two Section Css --*/
+
+
+.campaigns-area.campaigns-style-two {
+	background: #f4f4f4;
+}
+.campaigns-style-two .campaigns-item-thum img {
+	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+/*================================
+<--  End elecson campaigns Inner Page Css -->
+==================================*/
+
+
+
+/*================================
+<--  Start elecson Campaigns-Details Inner Page Css -->
+==================================*/
+.campaign-details-area {
+	padding: 100px 0 72px;
+}
+
+ .donations-detials-title h2 a {
+    display: inline-block;
+    font-size: 34px;
+    color: #012549;
+    font-weight: 700;
+    font-family: "Work Sans";
+    padding: 22px 0 16px;
+}
+
+.donation-description p {
+    width: 93%;
+}
+
+.up.donation-description p {
+    padding: 5px 24px 7px 0px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012549;
+    font-weight: 400;
+    position: relative;
+    padding-left: 45px;
+    z-index: -1;
+}
+
+.up.donation-description p:before {
+    position: absolute;
+    content: "'";
+    left: 0;
+    top: 18px;
+    width: 35px;
+    height: 3px;
+    background-color: #3394f5;
+    z-index: -1;
+}
+
+.row.mt-55 {
+    padding: 38px 0 10px;
+}
+
+.event-thumb img {
+    width: 100%;
+}
+
+.donation-list {
+    margin: 28px 0 45px;
+}
+
+.donation-list ul li {
+	font-size: 17px;
+	line-height: 28px;
+	color: #012549;
+	font-weight: 400;
+	font-family: "Arimo";
+	list-style: none;
+}
+
+.donation-list ul li i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #1f85eb;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 10px;
+}
+
+/* leader person */
+
+.row.our-campaign {
+    margin: 0;
+}
+
+.our-campaign-title h2 {
+    font-size: 34px;
+    color: #012549;
+    font-weight: 700;
+    font-family: "Work Sans";
+    margin-bottom: 30px;
+}
+
+.leader-person {
+    background: #F4F4F4;
+    padding: 45px 0 7px;
+}
+
+.our-campaign-team {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3.our-campaign-team-title {
+    font-size: 18px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+    text-align: center;
+    margin-top: 15px;
+}
+
+.our-campaign-team-content p {
+    font-size: 15px;
+    color: #6f7785;
+    font-weight: 400;
+    font-family: "Arimo";
+    text-align: center;
+}
+
+/* campaigns btn */
+
+.campaigns-button {
+    padding: 50px 0 20px;
+}
+
+.campaigns-button a {
+    display: inline-block;
+    background: #DF1141;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    padding: 16px 34px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.campaigns-button a:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    left: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.campaigns-button a:hover:before {
+    width: 80%;
+}
+
+.campaigns-button a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    right: -30px;
+    background: #002549;
+    transform: skew(40deg);
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.campaigns-button a:hover:after {
+    width: 80%;
+}
+
+/*event items*/
+.event-details-items {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 39px 40px 40px;
+    border-top: 5px solid #3394F5;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+/*event title*/
+.event-title2 h4 {
+    color: #fff;
+    position: relative;
+    padding: 0 0 18px 40px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.event-title2 h4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 14px;
+    width: 30px;
+    height: 2px;
+    background: #E01142;
+}
+/*event text*/
+.event-text2 {
+    padding: 20px 0 5px;
+}
+
+.event-text2 p {
+    font-size: 15px;
+    margin-bottom: 2px;
+    color: #D1D2D4;
+}
+
+.event-text2 p i {
+    font-size: 15px;
+    color: #E01142;
+    padding-right: 8px;
+}
+
+.event-text2 p {
+    font-size: 15px;
+    margin-bottom: 2px;
+    color: #D1D2D4;
+}
+
+.event-text2 p span {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Work Sans";
+}
+
+/* widget items */
+
+.widget-items {
+    background: #F4F4F4;
+    padding: 35px 40px 11px 40px;
+}
+
+.categories-title h4 {
+    font-size: 24px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+    border-bottom: 2px solid rgba(27,52,52,0.10196078431372549);
+    padding-bottom: 14px;
+    margin-bottom: 30px;
+}
+
+/*recent post*/
+
+.widget-recent-post {
+    margin-bottom: 29px;
+    border-bottom: 1px solid rgba(27,52,52,0.10196078431372549);
+    padding: 0 0 25px;
+}
+.widget-recent-post.upper {
+    border: 0;
+    padding: 0;
+}
+
+/* rpost title*/
+
+.rpost-title {
+    padding-left: 20px;
+}
+.rpost-title h4 {
+    margin-top: 0;
+}
+
+.rpost-content h4 a {
+    display: inline-block;
+    transition: .5s;
+    font-size: 17px;
+    line-height: 24px;
+    color: #012549;
+    font-weight: 500;
+    font-family: "Work Sans";
+}
+
+.rpost-content h4 a:hover {
+    color: #e01142;
+}
+
+.rpost-title span {
+    font-size: 14px;
+    color: #e01142;
+    font-weight: 400;
+    font-family: "Arimo";
+    margin-top: 7px;
+    display: inline-block;
+}
+
+.rpost-title span i {
+    margin-right: 5px;
+}
+/*================================
+<--  End elecson Campaigns-Details Inner Page Css -->
+==================================*/
+
+
+
+
+.blog-list-area {
+	padding: 100px 0 70px;
+}
+.blog-list-area2 {
+	padding-bottom: 100px;
+}
+.blog-details-main {
+	background: #fff;
+	padding: 30px;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.08);
+}
+.page-blog-item {
+	margin-bottom: 30px;
+	border: none;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.08);
+}
+.blog-du-btn {
+	display: none;
+}
+
+/*widget search*/
+
+.widget_search {
+    padding: 19px 40px 40px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background: #fff;
+    -webkit-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+}
+
+.widget_search form {
+    position: relative;
+    margin-top: 25px;
+}
+
+.widget_search input {
+	border-radius: 4px;
+	padding-left: 20px;
+	height: 60px;
+	width: 100%;
+	position: relative;
+	color: #000;
+	outline: 0;
+	border: none;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.06);
+}
+
+button.icons {
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    padding: 1px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    background: #E11143;
+    border-radius: 0 4px 4px 0;
+}
+
+/*widget categories box*/
+
+.widget-categories-box {
+	padding: 18px 20px 18px 32px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	background: #fff;
+	-webkit-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+	box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.07);
+}
+
+.widget-categories-box.style1 {
+    padding: 18px 40px 12px;
+}
+
+/*title*/
+
+.categories_title h4 {
+    font-size: 24px;
+    padding: 0px 0 8px;
+    margin: 0 0 8px;
+    position: relative;
+    line-height: 60px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+    border-bottom: 2px solid #E8EAEA;
+}
+
+.categories_title h4:before {
+    position: absolute;
+    content: "";
+    left: -40px;
+    top: 20px;
+    height: 25px;
+    width: 5px;
+    background: #E11143;
+}
+
+/*categories menu*/
+
+.widget-categories-menu ul {
+    display: block;
+}
+
+.widget-categories-menu ul li {
+    display: block;
+    list-style: none;
+    background: transparent;
+    padding: 16px 0px 16px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #E8EAEA;
+}
+
+.widget-categories-menu ul li:last-child {
+    border: none;
+}
+
+.widget-categories-menu ul li a {
+    display: block;
+    color: #012549;
+    transition: .5s;
+}
+
+.widget-categories-menu ul li a span {
+    display: inline-block;
+    float: right;
+    background: #012549;
+    height: 22px;
+    width: 22px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 6px;
+    color: #fff;
+    line-height: 22px;
+    transition: .5s;
+}
+
+.widget-categories-menu ul li:hover a span {
+    background: #E11143;
+    color: #fff;
+}
+
+.widget-categories-menu ul li:hover a {
+    color: #E11143;
+}
+
+.pdf-button a {
+    display: block;
+    background: #E11143;
+    padding: 15px 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pdf-button a i {
+    float: right;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+/* Sidber Recent Post */
+
+.sidber-widget-recent-post {
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 22px;
+}
+
+.sidber-widget-recent-post.style1 {
+    margin-bottom: 0px;
+}
+
+.sidber-widget-recent-post:last-child {
+    border: none;
+}
+
+.recent-widget-content a {
+    color: #1b1b1b !important;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    line-height: 26px;
+    transition: .5s;
+    margin-bottom: 7px;
+}
+
+.recent-widget-thumb {
+    float: left;
+    margin-right: 25px;
+}
+
+.sidber-widget-recent-post .recent-widget-content a {
+    color: #E11143;
+    font-size: 18px;
+}
+
+/* Sidber Achivement CSS */
+
+.widget-achivement ul li {
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+.widget-achivement ul li a i {
+    font-size: 17px;
+    margin-right: 3px;
+}
+
+.widget-achivement ul li a {
+    font-weight: 600;
+    transition: .5s;
+    color: #1b1b1b;
+}
+
+.widget-achivement ul li a span {
+    float: right;
+}
+
+.widget-achivement ul li a:hover{
+    color: #E11143;
+}
+
+/* Sidber Widget Gallery CSS */
+
+.widget-gallery {
+    overflow: hidden;
+}
+
+.widget-gallery-thumb {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Sidber Widget Tags CSS */
+
+.widget-tags a {
+    display: inline-block;
+    border: 1px solid #eaeaea;
+    padding: 8px 19px;
+    margin: 4px 3px;
+    border-radius: 2px;
+    color: #1b1b1b;
+    font-weight: 400;
+    position: relative;
+    transition: .5s;
+    z-index: 1;
+}
+
+
+.widget-tags a:hover{
+    color: #fff;
+    border-color: #E11143;
+    background: #E11143;
+}
+
+.widget-tags a:hover:before{
+    width: 102%;
+}
+
+
+
+.blog-details-main {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
+}
+.blog-details-meta {
+    background: #E11143;
+    padding: 16px 30px;
+}
+
+.blog-details-meta span {
+    margin-right: 30px;
+    color: #fff;
+}
+
+.blog-details-meta span i {
+    color: #fff;
+    padding-right: 5px;
+}
+
+.blog-details-content {
+    padding: 20px 0 18px;
+}
+
+.blog-details-content h2 {
+    margin-bottom: 15px;
+    font-size: 34px;
+    line-height: 60px;
+    color: #012549;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.blog-details-thumb img {
+    width: 100%;
+}
+
+.blog-details-des {
+    padding: 30px 0 10px;
+}
+
+.blog-details-blockquote {
+    background: #1F85EA;
+    padding: 40px 38px 26px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.blog-details-blockquote blockquote {
+    font-size: 18px;
+    color: #fff;
+}
+.blog-details-video-thumb {
+    margin-top: 30px;
+    position: relative;
+}
+
+.blog-details-video-thumb img {
+    width: 100%;
+}
+
+.blog-details-video-thumb-inner img {
+    width: 100%;
+}
+
+.blog-details-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.blog-details-content-list p i {
+    font-size: 14px;
+    height: 32px;
+    width: 32px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 100%;
+    margin-right: 15px;
+    color: #E11143;
+}
+
+.blog-detials-area .blog-content {
+    padding: 20px 30px 38px;
+}
+
+.blog-details-button a {
+    display: inline-block;
+    border: 2px solid #E11143;
+    padding: 3px 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.blog-details-button a:before {
+    position: absolute;
+    content: "";
+    left: -2px;
+    top: -1px;
+    height: 104%;
+    width: 104%;
+    background: #E11143;
+    z-index: -1;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.blog-details-button a.active {
+    background: transparent;
+    transition: .5s;
+    margin-left: 10px;
+    color: #E11143;
+}
+.blog-details-button a.active:before{
+    background: transparent;
+}
+
+.blog-details-button a.active:hover:before{
+    background: #E11143;
+}
+
+.blog-details-button a.active:hover{
+    color: #fff;
+    border-color: #E11143;
+}
+
+.blog-details-social {
+    text-align: right;
+}
+
+.blog-details-social a {
+    display: inline-block;
+    border: 2px solid #E11143;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 14px;
+    transition: .5s;
+    margin-left: 5px;
+    color: #E11143;
+}
+
+.blog-details-social a:hover{
+    background: #E11143;
+    border-color: #E11143;
+    color: #fff;
+}
+
+/* Blog Details Author */
+
+.blog-details-author {
+    border-top: 2px solid rgba(255,255,255,0.2);
+    padding-top: 40px;
+    margin-top: 32px;
+}
+
+.blog-details-author-inner {
+    background: #E11143;
+    padding: 30px 30px 24px;
+}
+
+.blog-details-author-thumb {
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-details-author-content h2 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #ffff;
+}
+.blog-details-author-content p {
+    color: #ffffffbd;
+}
+
+/* Comment CSS */
+
+.blog-details-comment {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.blog-details-comment-thumb {
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-details-comment-content {
+    overflow: hidden;
+}
+
+.blog-details-comment-content h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.blog-details-comment-content span {
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.blog-details-comment-reply {
+    position: absolute;
+    right: 25px;
+}
+
+.blog-details-comment-reply a {
+    background: #E11143;
+    padding: 3px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.blog-details-comment.reply {
+    margin-left: 70px;
+    padding-top: 35px;
+    border-top: 2px solid rgba(255,255,255,0.2);
+}
+
+/* Blog Details Contact */
+
+.blog-details-contact {
+    border-top: 2px solid rgba(255,255,255,0.2);
+    margin: 12px 10px 10px;
+    padding-top: 8px;
+}
+
+/*input-box*/
+
+.input-box input {
+	width: 100%;
+	height: 50px;
+	border: none;
+	margin-bottom: 30px;
+	padding: 0 20px;
+	outline: 0;
+	border-radius: 3px;
+	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.06);
+}
+
+.input-box textarea {
+    width: 100%;
+    height: 207px;
+    outline: 0;
+    border: none;
+    padding: 22px 20px 0;
+    border-radius: 3px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.06);
+}
+
+/*input button*/
+.input-button {
+    margin-top: 27px;
+}
+
+.input-button button {
+    display: inline-block;
+    padding: 13px 39px;
+    outline: 0;
+    border: 0;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: #E11143;
+    border: 1px solid #E11143;
+    transition: .5s;
+}
+
+.input-button button:hover {
+    border: 1px solid #E11143;
+    color: #E11143;
+    background: none;
+}
+
+.input-button button i {
+    margin-left: 10px;
+}
+
+
+/*================================
+<--  End elecson Blog-Details Inner Page Css -->
+==================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.elecson_nav_manu {
+    transition: .5s;
+    z-index: 2;
+    position: relative;
+    padding: 0 70px 0;
+    margin-bottom: -95px;
+    border-bottom: 1px solid rgba(16,18,16,0.10196078431372549);
+}
+
+.sticky {
+	left: 0;
+	margin: auto;
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+	-webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+	background: #e11143 !important;
+	transition: .5s !important;
+	z-index: 922;
+	-webkit-animation: 300ms running fadeInDown;
+	animation: 500ms running fadeInUp;
+	animation-name: slideInDown;
+}
+
+.sticky .elecson_menu>ul>li>a {
+    color: #fff;
+}
+
+.sticky .header-button a {
+    background: #ffde5d;
+}
+
+.sticky .header-button a i {
+    color: #fff;
+}
+
+/* elecson Menu Css*/
+nav.elecson_menu {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3px;
+    margin-left: 11px;
+}
+
+.elecson_menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.elecson_menu>ul>li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.elecson_menu>ul>li>a {
+    font-size: 17px;
+    display: block;
+    margin: 35px 15px;
+    transition: .5s;
+    color: #101210;
+    font-weight: 500;
+}
+
+nav.elecson_menu span {
+    font-size: 11px;
+    padding-left: 5px;
+    font-family: FontAwesome;
+    opacity: .5;
+}
+
+.elecson_menu>ul>li>a:hover {
+    color: #ffde5d;
+}
+
+/*menu button*/
+
+.header-button {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+.header-button a {
+    font-size: 16px;
+    padding: 12px 30px;
+    font-weight: 500;
+    color: #fff;
+    background: #101210;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.header-button a:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    background: #ffde5d;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.header-button a i {
+    padding-right: 5px;
+    position: relative;
+    top: 3px;
+    color: #ffde5d;
+    transition: .5s;
+}
+
+.header-button a:hover:before {
+    transform: scale(1);
+}
+
+.header-button a:hover i {
+    color: #fff;
+}
+
+/*Style Two Nav Menu*/
+
+.style-two.elecson_nav_manu {
+    border-bottom: 1px solid rgba(255,255,255,0.10196078431372549);
+}
+
+.style-two .elecson_menu>ul>li>a {
+    color: #fff;
+
+}
+
+/*style two btn*/
+
+.style-two .header-button a {
+    background: rgba(16,18,16,0);
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.style-two .header-button a i {
+    color: #bbf737;
+}
+
+/*** Sub Menu Style 
+==========================***/
+
+.elecson_menu ul .sub-menu {
+    position: absolute;
+    left: 0;
+    top: 130%;
+    width: 217px;
+    text-align: left;
+    background: #fff;
+    margin: 0;
+    z-index: 1;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+    visibility: hidden;
+    border-top: 2px solid #ffde5d;
+    opacity: 0;
+}
+
+.elecson_menu ul li:hover>.sub-menu {
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+}
+
+.elecson_menu ul .sub-menu li {
+    position: relative;
+}
+
+.elecson_menu ul .sub-menu li a {
+    display: block;
+    padding: 12px 20px;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: normal;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    -webkit-transition: .1s;
+    transition: .1s;
+    visibility: inherit !important;
+    color: #101210 !important;
+}
+
+.elecson_menu ul .sub-menu li:hover>a,
+.elecson_menu ul .sub-menu .sub-menu li:hover>a,
+.elecson_menu ul .sub-menu .sub-menu .sub-menu li:hover>a,
+.elecson_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover>a {
+    background: #ffde5d;
+    color: #fff !important;
+}
+
+/* sub menu 2 
+=================*/
+
+.elecson_menu ul .sub-menu .sub-menu {
+    left: 100%;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.elecson_menu ul .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+/* sub menu 3 
+==================*/
+
+.elecson_menu ul .sub-menu .sub-menu li {
+    position: relative;
+}
+
+.elecson_menu ul .sub-menu .sub-menu .sub-menu {
+    right: 100%;
+    left: auto;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.elecson_menu ul .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+ul.sub-menu li a span {
+    background: #ffde5d;
+    padding: 5px 10px;
+    color: #fff;
+    opacity: 1;
+    font-family: 'Fira Sans';
+    border-radius: 2px;
+    margin-left: 5px;
+    transition: .5s;
+}
+
+ul.sub-menu li:hover a span{
+    background: rgba(255,255,255, 0.20);
+}
+
+/* sub menu 4 
+====================*/
+
+.elecson_menu ul .sub-menu .sub-menu .sub-menu li {
+    position: relative;
+}
+
+
+.elecson_menu ul .sub-menu .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+.elecson_menu li a:hover:before {
+    width: 101%;
+}
+
+.elecson_nav_manu.sticky .logo_img {
+    display: none;
+}
+
+.main_sticky {
+    display: none;
+}
+
+.elecson_nav_manu.sticky .main_sticky {
+    display: inherit;
+}
+
+.mobile-menu.mean-container {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+/*
+<!-- ============================================================== -->
+<!-- elecson Start Cart Section -->
+<!-- ============================================================== -->*/
+
+.cart-section {
+    padding: 100px 0 100px;
+}
+
+.cart-empty p {
+    padding: 18px 25px;
+    position: relative;
+    background-color: #F6F7F9;
+    border-bottom: 2px solid #050505;
+    display: inline-block;
+    width: 100%;
+    color: #050505;
+}
+
+.cart-empty p i {
+    color: #050505;
+    padding-right: 10px;
+}
+
+.cart-section a.elecson-button {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+@keyframes ripple {
+
+    0%,
+    35% {
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+        transform: scale(2);
+    }
+}
+
+
+@keyframes movebounce {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+
+@keyframes moveleftbounce {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+    50% {
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+
+
+/*--==============================================->
+  <!-- elecson Animation Dance -->
+ ==================================================-*/
+/**/
+.dance3 {
+    -webkit-animation: dance3 8s alternate infinite;
+    animation: dance3 8s alternate infinite;
+}
+
+@keyframes dance3 {
+    0% {
+        -webkit-transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+.dance {
+    -webkit-animation: dance 2s alternate infinite;
+    animation: dance 2s alternate infinite;
+}
+
+@keyframes dance {
+    0% {
+        -webkit-transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+.dance2 {
+    -webkit-animation: dance2 4s alternate infinite;
+    animation: dance2 4s alternate infinite;
+}
+
+@keyframes dance2 {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+    50% {
+        -webkit-transform: translate3d(25px, -25px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, -25px, 25px);
+    }
+}
+
+.watermark-animate {
+    -webkit-animation: watermark-animate 8s infinite;
+    animation: watermark-animate 8s infinite;
+    animation-direction: alternate-reverse;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@keyframes watermark-animate {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+
+
+/*rotateme animation*/
+
+.rotateme {
+    -webkit-animation-name: rotateme;
+    animation-name: rotateme;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+/*----------------
+==============   Start elecson shop Nav Sidebar button
+------------------*/
+
+/*nav button*/
+
+.nav-btn.navSidebar-button {
+    display: inline-block;
+    float: left;
+    padding: 10px 0 0;
+}
+
+.nav-btn.navSidebar-button a i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.xs-sidebar-group .xs-overlay {
+    left: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 101;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease-in 0.8s;
+    -o-transition: all 0.4s ease-in 0.8s;
+    transition: all 0.4s ease-in 0.8s;
+}
+
+.xs-sidebar-group .widget-heading {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 0;
+}
+
+.xs-sidebar-widget {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 360px;
+    z-index: 999999;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+    -webkit-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.xs-sidebar-group.isActive .xs-overlay {
+    opacity: 0.4;
+    visibility: visible;
+    -webkit-transition: all 0.8s ease-out 0s;
+    -o-transition: all 0.8s ease-out 0s;
+    transition: all 0.8s ease-out 0s;
+    left: 0;
+}
+
+.xs-sidebar-group.isActive .xs-sidebar-widget {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    -webkit-transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+    transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+}
+
+.sidebar-textwidget {
+    padding: 40px 32px;
+}
+
+.close-side-widget i {
+    color: #101010;
+    font-size: 28px;
+    display: block;
+}
+
+.sidebar-widget-container {
+    position: relative;
+    top: 150px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in 0.3s;
+    -o-transition: all 0.3s ease-in 0.3s;
+    transition: all 0.3s ease-in 0.3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.xs-sidebar-group.isActive .sidebar-widget-container {
+    top: 0px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 1s ease-out 1.2s;
+    -o-transition: all 1s ease-out 1.2s;
+    transition: all 1s ease-out 1.2s;
+    -webkit-backface-visibility: hidden;
+  
+    backface-visibility: hidden;
+}
+
+.xs-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.xs-bg-black {
+    background-color: #101010;
+}
+
+
+/*html css*/
+.nav-logo {
+    padding: 0 0 40px;
+}
+
+.sidebar-info-contents .widget-search {
+    padding: 0 0 15px;
+}
+
+.sidebar-info-contents .widget {
+    display: block;
+} 
+
+.sidebar-info-contents h3.widget-title {
+    font-size: 25px;
+    padding: 8px 0 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9;
+    font-style: italic;
+}
+
+.sidebar-info-contents h3.widget-title {
+    font-size: 25px;
+    padding: 15px 0 15px;
+}
+
+.widget form {
+    position: relative;
+}
+
+.widget input {
+    border-radius: 4px;
+    padding-left: 20px;
+    height: 56px;
+    width: 100%;
+    color: #fff;
+    border: 1px solid #e9e9e9;
+}
+
+button.icon {
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    padding: 1px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 56px;
+    width: 60px;
+    background: #ffde5d;
+    border-radius: 0 4px 4px 0;
+}
+
+.widget input::placeholder {
+    color: #101010;
+}
+
+ul.list-style-one li {
+    display: block;
+    list-style: none;
+    color: #fff;
+    padding: 16px 0 0;
+    overflow: hidden;
+}
+
+ul.list-style-one li span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #101010;
+    float: right;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+ul.list-style-one li a {
+    transition: .5s;
+    color: #101010;
+}
+
+ul.list-style-one li a i {
+    background: red;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+a.white-bg i {
+    background: #e9e9e9 !important;
+}
+
+a.yellow-bg i {
+    background: #eeee22 !important;
+}
+
+a.green-bg i {
+    background: #9BC45C !important;
+}
+
+/*Tag
+=======*/
+
+.sidebar-tag-menu {
+    padding: 12px 0 0;
+}
+
+.sidebar-tag-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 6px;
+    color: #101010;
+    padding: 0 0 12px;
+}
+
+/*social icon*/
+
+ul.social-icon {
+    padding: 20px 0 0;
+}
+
+ul.social-icon li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px 0 0;
+}
+
+ul.social-icon li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    text-align: center;
+    background: #fff;
+    color: #101010;
+    transition: .5s;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+ul.social-icon li a:hover {
+    background: #ffde5d;
+    color: #fff;
+}
+
+ul.list-style-one li a:hover span {
+    background: #ffde5d;
+    border-radius: 30px;
+    color: #fff;
+} 
+
+ul.list-style-one li a:hover {
+    color: #ffde5d;
+}
+
+
+
+
+
+
+
+/*** 
+====================================================================
+    Search Popup
+====================================================================
+***/
+.search-popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 99999;
+    margin-top: -540px;
+    transform: translateY(-100%);
+    background-color: rgba(0,0,0,0.90);
+    -webkit-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -moz-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -o-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    transition: all 1500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+    -webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+}
+
+.search-popup{
+    width: 100%;
+}
+
+.search-active .search-popup{
+    transform: translateY(0%);
+    margin-top: 0;
+}
+
+.search-popup .close-search {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-top: -200px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #e11143;
+	width: 70px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.05);
+	border-bottom: 3px solid #fff;
+	border-top: 3px solid #fff;
+	border-right: 3px solid #062462;
+	border-left: 3px solid #062462;
+	-webkit-transition: all 500ms ease;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+
+.search-active .search-popup .close-search{
+    visibility: visible;
+    opacity: 1;
+    top: 50%;
+    -webkit-transition-delay: 1500ms;
+    -moz-transition-delay: 1500ms;
+    -ms-transition-delay: 1500ms;
+    -o-transition-delay: 1500ms;
+    transition-delay: 1500ms;
+}
+
+.search-popup form{
+    position: absolute;
+    max-width: 700px;
+    top: 50%;
+    left: 15px;
+    right: 15px;
+    margin:-35px auto 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    background-color: #111111;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.search-active .search-popup form{
+    transform: scaleX(1);
+    -webkit-transition-delay: 1200ms;
+    -moz-transition-delay: 1200ms;
+    -ms-transition-delay: 1200ms;
+    -o-transition-delay: 1200ms;
+    transition-delay: 1200ms;
+}
+
+.search-popup .form-group{
+    position:relative;
+    margin:0px; 
+  
+    overflow: hidden;
+}
+.search-popup .form-group input[type="text"],
+.search-popup .form-group input[type="search"]{
+    position:relative;
+    display:block;
+    font-size:18px;
+    line-height: 50px;
+    color:#000000;
+    height:70px;
+    width:100%;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    font-weight:500;
+    text-transform:capitalize;
+}
+
+.search-popup .form-group input[type="submit"], .search-popup .form-group button {
+	position: absolute;
+	right: 30px;
+	top: 0px;
+	height: 70px;
+	line-height: 70px;
+	background: transparent;
+	text-align: center;
+	font-size: 24px;
+	color: #e11143;
+	padding: 0;
+	cursor: pointer;
+	-webkit-transition: all 500ms ease;
+	border: none;
+}
+
+.search-popup .form-group input[type="submit"]:hover,
+.search-popup .form-group button:hover{
+    color: #000000;
+}
+
+.search-popup input::placeholder,
+.search-popup textarea::placeholder{
+    color:#000000;
+}
+
+.search-popup .close-search.style-two{
+    position: absolute;
+    right: 25px;
+    left: auto;
+    color:#ffffff;
+    width:auto;
+    height:auto;
+    top:25px;
+    margin:0px;
+    border:none;
+    background:none !important;
+    box-shadow:none !important;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+.search-box-btn {
+    display: inline-block;
+    padding-left: 22px;
+}
+
+.search-box-btn i {
+    display: inline-block;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.upp.search-box-btn i {
+    color: #9E9FA1;
+}
+
+.search-box-btn.search-box-outer span i {
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    padding-left: 17px;
+    position: relative;
+    z-index: 1;
+}
+
+.upp.search-box-btn.search-box-outer span i {
+    color: #9E9FA1;
+}
+
+.search-box-btn.search-box-outer span i:after {
+    position: absolute;
+    content: "0";
+    right: -10px;
+    top: -4px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    background: #1552F6;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.flaticon-multiply:before {
+    content: inherit;
+}
+
+button.close-search i {
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+}
+
+
+span.flaticon-multiply i {
+	display: inline-block;
+	color: #e11143;
+}
+
+
+
+
+
+
+
+/*===========================
+<-- elecson Loader Css -->
+=============================*/
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s 1s ease;
+    z-index: 999;
+}
+
+.loader {
+    position: relative;
+    display: block;
+    z-index: 201;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    border-radius: 50%;
+    transition: all 1s 1s ease;
+    border: 3px solid transparent;
+    border-top-color: #9A241C;
+    -webkit-animation: spin 1.5s linear infinite;
+    -moz-animation: spin 1.5s linear infinite;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+.loader:before {
+    position: absolute;
+    content: '';
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-left-color: #FF3C00;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.loader:after {
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-right-color: #fff;
+    -webkit-animation: spin 2.5s linear infinite;
+    -moz-animation: spin 2.5s linear infinite;
+    -o-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+}
+
+/*/ Here comes the Magic /*/
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.loader-wrapper .loder-section {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #111;
+    z-index: 2;
+}
+
+.loader-wrapper .loder-section.left-section {
+    left: 0;
+    transition: 1s 1.4s ease;
+}
+
+.loader-wrapper .loder-section.right-section {
+    right: 0;
+    transition: 1s 1.4s ease;
+}
+
+/*/ When page loaded /*/
+
+.loaded .loder-section.left-section {
+    left: -100%;
+}
+
+.loaded .loder-section.right-section {
+    right: -100%;
+}
+
+.loaded .loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded .loader {
+    top: -100%;
+    opacity: 0;
+}
+
+
+/*
+<!-- ============================================================== -->
+<!--Scrollup Button Section -->
+<!-- ============================================================== -->*/
+
+/*------back-to-top------------*/
+
+.prgoress_indicator {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 2px rgba(225, 17, 67, 0.2);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transform: translateY(15px) !important;
+    transition: all 200ms linear !important;
+}
+
+.prgoress_indicator.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) !important;
+}
+
+.prgoress_indicator::after {
+    position: absolute;
+    content: "\f106";
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #e11143;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    font-weight: 900;
+    z-index: 1;
+    transition: all 200ms linear !important;
+}
+
+.prgoress_indicator::before {
+  position: absolute;
+  content: "\f106";
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  font-weight: 900;
+  opacity: 0;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 0;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  z-index: 2;
+  transition: all 200ms linear !important;
+}
+
+.prgoress_indicator:hover ::after {
+  color: #2871ff;
+}
+
+.prgoress_indicator:hover ::before {
+  opacity: 1;
+}
+
+.prgoress_indicator svg path {
+  fill: none;
+}
+
+.prgoress_indicator svg.progress-circle path {
+    stroke: #e11143;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear !important;
+}

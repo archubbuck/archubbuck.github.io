@@ -1,0 +1,1287 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1400px) and (max-width: 1920px) {
+
+    /*--  Portfolio-Botoom Css --*/
+
+    .portfolio-item-box::before {
+        bottom: -240px;
+    }
+
+}
+
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /*--  Header-Botoom Css --*/
+
+    .elecson-menu ul li a {
+        font-size: 16px;;
+        margin-right: 26px;
+    }
+    .header-search-button {
+        margin: 13px 16px 0px -8px;
+    }
+    .header-shop-button {
+        width: 65px;
+    }
+
+    /*--  Hero Css --*/
+
+    #customers-hero .owl-nav {
+        display: none;
+    }
+
+    /*--  Mission Css --*/
+
+    .mission-content {
+        padding: 16px 16px 15px 32px;
+    }
+
+
+    /*--  Portfolio Css --*/
+
+    .portfolio-item-box::before {
+        bottom: -145px;
+    }
+
+    /*--  Service Css --*/
+
+    .service-back-content p {
+        font-size: 14px;
+    }
+
+    /*--  Testimonial Css --*/
+
+    .testimonial-item-box {
+        padding: 40px 60px 22px 30px;
+    }
+
+    /*--  Blog Css --*/
+
+    .blog-inner-content {
+        padding: 18px 30px 30px 32px;
+    }
+    .blog-inner-content h4 {
+        margin-top: 16px;
+        margin-bottom: 14px;
+    }
+    .blog-btn {
+        padding-top: 22px;
+    }
+
+
+    /*================================
+    <--  Start politics About Inner Page Css -->
+    ==================================*/
+
+    .about-page-thum img {
+        width: 90%;
+    }
+    .mission-page-icon {
+        height: 112px;
+    }
+    .team-section-title h4::after {
+        left: 614px;
+    }
+    .gallery-page-box {
+        padding: 14px 0 19px;
+    }
+
+    /*================================
+    <--  Start politics Campaigns Inner Page Css -->
+    ==================================*/
+
+    .campaigns-item-thum img {
+        width: 100%;
+    }
+    .campaigns-item-box {
+        padding: 24px 0px 0px 24px;
+    }
+    .campaigns-item-thum {
+        text-align: right;
+    }
+    .campaigns-style-two .campaigns-item-thum img {
+        width: 90%;
+    }
+
+    /*================================
+    <--  Start politics campaigns-details Inner Page Css -->
+    ==================================*/
+
+    .widget-recent-post {
+        display: block !important;
+    }
+    .rpost-content {
+        margin-top: 14px;
+        margin-left: -19px;
+    }
+
+    /*================================
+    <--  Start politics Volunteer Inner Page Css -->
+    ==================================*/
+
+    .volunteer-thumb img {
+        width: 94%;
+    }
+    .blog-down-user-btn {
+        left: 70px;
+        top: 3px;
+    }
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*--  Header-Top Css --*/
+
+    .header-left-address ul li {
+        margin-right: 22px;
+        font-size: 14px;
+    }
+    .header-center-title ul li {
+        margin-right: 7px;
+        font-size: 14px;
+        position: relative;
+        left: -50px;
+    }
+
+    /*--  Header-Bottom Css --*/
+
+.elecson-menu ul li a {
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+    .header-btn a {
+        padding: 14px 24px;
+        font-size: 14px;
+    }
+    .header-search-button {
+        margin: 13px 12px 0px 0px;
+    }
+    .header-search-button a {
+        font-size: 18px;
+    }
+    .header-shop-button {
+        width: 57px;
+    }
+    .header-shop-button a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .header-shop-button a::before {
+        width: 14px;
+        height: 14px;
+        right: -3px;
+        line-height: 13px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    /*--  Hero Css --*/
+
+    .hero-shape1 {
+        right: -193px;
+    }
+
+    /*--  Mission Css --*/
+
+    .section-paragraph {
+        font-size: 16px;
+    }
+    .mission-content {
+        padding: 16px 30px 15px 32px;
+    }
+    .mission-content h4 {
+        font-size: 18px;
+    }
+    .mission-content p {
+        font-size: 13px;
+    }
+
+    /*--  About Css --*/
+
+    .about-main-title {
+        font-size: 38px;
+    }
+    .about-right-bg img {
+        width: 100%;
+    }
+    .video-icon {
+        left: 262px;
+        bottom: 68px;
+    }
+    .about-item-box p {
+        font-size: 16px;
+    }
+
+    /*--  portfolio Css --*/
+
+    .portfolio-item-box::before {
+        bottom: -119px;
+    }
+    .portfolio-content {
+        left: 17px;
+        bottom: -75px;
+    }
+
+    /*--  Service Css --*/
+
+    .service-front-content {
+        padding: 42px 0px 30px 35px;
+    }
+    .service-front-card-heading h4 {
+        font-size: 18px;
+    }
+    .service-back-content {
+        padding: 5px 0px 0px 28px;
+    }
+    .service-back-content h4 {
+        margin-top: 18px;
+        margin-bottom: 14px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .service-back-content p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 82%;
+    }
+
+    /*--  Donate Css --*/
+
+    .donate-heading-title h2 {
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+    .donate-count-item p {
+        font-size: 14px;
+    }
+    .donate-right-bg {
+        margin-top: 50px;
+    }
+    .donate-right-bg img {
+        width: 100%;
+    }
+
+    /*--  Testimonial Css --*/
+
+    .testimonial-item-box {
+        padding: 40px 54px 22px 30px;
+    }
+    .testi-paragraph p {
+        font-size: 14px;
+    }
+
+    /*--  Blog Css --*/
+
+    .blog-inner-content {
+        padding: 27px 46px 34px 32px;
+    }
+
+    /*--  Team Css --*/
+
+    .team-img-thum::before {
+        left: 11px;
+        top: 11px;
+    }
+    .team-social-icon {
+        bottom: -134px;
+        left: 30px;
+    }
+    .team-content h4 {
+        font-size: 20px;
+    }
+    .team-content p {
+        font-size: 15px;
+    }
+    .team-img-thum:hover .team-social-icon {
+        transform: translateY(-114%);
+    }
+
+    /*--  Footer Css --*/
+
+    .widgets-company-info p {
+        font-size: 14px;
+        width: 90%;
+    }
+    .widget-nav-menu p {
+        font-size: 14px;
+    }
+    .widget-contact-form form input {
+        padding: 10px 4px;
+    }
+    .widget-subscribe-btn a {
+        padding: 16px 52px;
+    }
+    ul.footer-widget-list li a {
+        font-size: 15px;
+    }
+
+
+
+
+    /*================================
+    <--  Start politics About Inner Page Css -->
+    ==================================*/
+
+    .about-page-thum img {
+        width: 100%;
+    }
+    .gallery-page-box {
+        padding: 0 0px 8px 0px;
+    }
+    .volunteer-area {
+        background-position: left center;
+    }
+    .volunteer-text p {
+        margin-left: 82px;
+    }
+    .mission-page-icon {
+        height: 130px;
+    }
+    .volunteer-content {
+        display: block;
+    }
+    .volunteer-btn {
+        text-align: left;
+    }
+    .volunteer-btn a {
+        margin-top: 22px;
+    }
+    .volunteer-follow-left {
+        margin-top: 22px;
+    }
+
+    /*================================
+    <--  Start politics campaigns Inner Page Css -->
+    ==================================*/
+
+    .campaigns-item-thum img {
+        width: 100%;
+        margin-top: 45px;
+    }
+    .campaigns-item-box {
+        padding: 0px 0px 0px 30px;
+    }
+    .widget-recent-post {
+        display: block !important;
+    }
+    .rpost-content {
+        margin-top: 14px;
+        margin-left: -21px;
+    }
+    .gallery-page-box::after {
+        left: -70px;
+        width: 57%;
+    }
+    .volunteer-thumb img {
+        width: 90%;
+    }
+    .mapouter.fixed-height {
+        height: 556px;
+    }
+    .blog-inner-content {
+        padding: 26px 16px 0px 16px;
+    }
+    .blog-inner-content h4 {
+        font-size: 18px;
+    }
+    .sidber-widget-recent-post {
+        display: block;
+    }
+    .recent-widget-thumb {
+        float: none;
+        margin-right: 0;
+    }
+    .recent-widget-content {
+        margin-top: 10px;
+    }
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*--  Header Css --*/
+
+    .header-area {
+        display: none;
+    }
+
+    /*--  Hero Css --*/
+
+    .hero-shape1 {
+        display: none !important;
+    }
+    #customers-hero .owl-nav {
+        display: none;
+    }
+    .politics-hero-desc p {
+        width: 58%;
+    }
+    .section-paragraph {
+        width: 60%;
+    }
+
+    /*--  Mission Css --*/
+
+    .mission-content {
+        padding: 16px 36px 15px 32px;
+    }
+    .mission-shape2 {
+        bottom: -4px;
+        right: -60px;
+    }
+    .mission-shape1 {
+        right: -68px;
+        bottom: -14px;
+    }
+
+    /*--  About Css --*/
+
+    .about-item-bg {
+        margin-top: 50px;
+    }
+
+    /*--  Portfolio Css --*/
+
+    .portfolio-item-box::before {
+        bottom: -189px;
+    }
+
+    /*--  Service Css --*/
+
+    .service-right-paragraph {
+        margin-top: -45px;
+    }
+    .service-right-paragraph p {
+        font-size: 15px;
+        width: 57%;
+        margin-bottom: 75px;
+    }
+    .service-front-content {
+        padding: 42px 29px 30px 35px;
+    }
+    .service-back-content p {
+        font-size: 13px;
+    }
+
+    /*--  Donate Css --*/
+
+    .donate-right-bg img {
+        width: 100%;
+    }
+    .donate-right-bg {
+        margin-top: 50px;
+    }
+
+
+
+    /*================================
+    <--  Start politics About Inner Page Css -->
+    ==================================*/
+
+
+    .gallery-page-box {
+        padding: 0px 0px 19px;
+    }
+    .gallery-page-box::after {
+        left: -78px;
+        width: 55%;
+    }
+
+    /*================================
+    <--  Start politics Donate Inner Page Css -->
+    ==================================*/
+
+    .row.donate_upper {
+        padding: 50px 48px 45px 10px;
+    }
+    button.tablink {
+        height: 45px;
+        width: 76px;
+    }
+    .tabcontent {
+        padding: 1px 17px 8px;
+    }
+
+    /*================================
+    <--  Start politics Donate Inner Page Css -->
+    ==================================*/
+
+    .volunteer-thumb {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+}
+
+
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+     /*--  Header Css --*/
+
+     .header-area {
+        display: none;
+    }
+
+    /*--  Hero Css --*/
+
+    .hero-shape1 {
+        display: none !important;
+    }
+    .hero-shape3 {
+        bottom: -38px;
+        left: 280px;
+    }
+    .hero-content h4 {
+        font-size: 20px;
+    }
+    .hero-content h1 {
+        font-size: 50px;
+    }
+    .politics-hero-desc p {
+        width: 79%;
+    }
+    #customers-hero .owl-nav {
+        display: none;
+    }
+
+    /*--  Mission Css --*/
+
+    .section-paragraph {
+        width: 72%;
+    }
+
+    /*--  About Css --*/
+
+    .about-right-bg {
+        margin-top: 50px;
+    }
+    .about-right-bg img {
+        width: 100%;
+    }
+    .video-icon {
+        left: 298px;
+        bottom: 94px;
+    }
+
+    /*--  Portfolio Css --*/
+
+    .portfolio-item-box::before {
+        bottom: -310px;
+    }
+
+
+    /*--  Service Css --*/
+
+    .service-right-paragraph {
+        margin-top: -50px;
+        margin-bottom: 60px;
+    }
+    .service-right-paragraph p {
+        font-size: 15px;
+    }
+    .service-back-content {
+        padding: 12px 60px 0px 35px;
+    }
+
+    /*--  Donate Css --*/
+
+    .section-paragraph.donate-section-paragraph {
+        width: 85%;
+        font-size: 16px;
+    }
+    .donate-heading-title h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .donate-right-bg img {
+        width: 100%;
+    }
+    .donate-right-bg {
+        margin-top: 50px;
+    }
+
+    /*--  Blog Css --*/
+
+    .blog-inner-content {
+        padding: 27px 159px 34px 32px;
+    }
+
+    /*--  Testimonial Css --*/
+
+    .testimonial-item-box {
+        padding: 40px 70px 22px 30px;
+    }
+
+    /*--  Team Css --*/
+
+    .team-top-content {
+        margin-top: -60px;
+        margin-bottom: 70px;
+    }
+    .team-img-thum::before {
+        left: 24px;
+        top: 31px;
+    }
+    .team-social-icon {
+        left: 150px;
+    }
+
+    /*--  Footer Css --*/
+
+    .widget-title {
+        margin-top: 40px;
+    }
+
+
+    /*================================
+    <--  Start politics About Inner Page Css -->
+    ==================================*/
+
+    .about-page-thum img {
+        width: 100%;
+    }
+    .mission-page-thum img {
+        width: 100%;
+    }
+    .mission-page-icon {
+        height: 110px;
+    }
+    .counter-upper {
+        box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.08);
+    }
+    .counter-img-thum {
+        margin-left: -16px;
+    }
+    .volunteer-content {
+        display: block;
+    }
+    .volunteer-btn {
+        text-align: left;
+        margin: 40px 0;
+    }
+    .gallery-team-thumb img {
+        width: 100%;
+    }
+    .gallery-page-box {
+        padding: 0px 0 42px 0px;
+    }
+    .gallery-page-box::before {
+        left: -80px;
+    }
+    /*================================
+    <--  Start politics Campaigns Inner Page Css -->
+    ==================================*/
+    .campaigns-area {
+        padding: 100px 0 75px;
+    }
+    .campaigns-btn {
+        margin-bottom: 40px;
+    }
+    .campaigns-item-thum img {
+        width: 100%;
+    }
+    .volunteer-follow-left {
+        margin-left: 0px;
+    }
+
+
+    /*================================
+    <--  Start politics Campaigns-Details Inner Page Css -->
+    ==================================*/
+    .event-thumb {
+        margin-bottom: 30px;
+    }
+
+    /*================================
+    <--  Start politics Donate Inner Page Css -->
+    ==================================*/
+    .row.donate_upper {
+        padding: 50px 48px 45px 0;
+    }
+    button.tablink {
+        height: 46px;
+        width: 76px;
+        margin-bottom: 8px;
+    }
+    .politics-section-title h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .donate-page-paragraph p {
+        width: 86%;
+        font-size: 15px;
+    }
+    /*================================
+    <--  Start politics Volunteer Inner Page Css -->
+    ==================================*/
+    .volunteer-thumb img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .forms-title h1 {
+        font-size: 40px;
+    }
+    .blog-down-user-btn {
+        left: 224px;
+    }
+    .blog-details-social {
+        text-align: left;
+        margin-top: 18px;
+    }
+    .blog-details-author-thumb {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+}
+
+
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
+     /*--  Header Css --*/
+     
+     .header-area {
+        display: none;
+    }
+
+    /*--  Hero Css --*/
+
+    .hero-shape1 {
+        display: none !important;
+    }
+    #customers-hero .owl-nav {
+        display: none;
+    }
+    .hero-content h4 {
+        font-size: 22px;
+    }
+    .hero-content h1 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .politics-hero-desc p {
+        width: 86%;
+    }
+    .elecson-btn a {
+        padding: 14px 24px;
+    }
+    .hero-shape3 {
+        bottom: -44px;
+        left: 260px;
+    }
+
+
+    /*--  Mission Css --*/
+
+    .section-title .section-sub-title {
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    .section-main-title {
+        font-size: 35px;
+    }
+    .section-paragraph {
+        font-size: 16px;
+        width: 86%;
+    }
+
+
+    /*--  About Css --*/
+
+    .about-right-bg {
+        margin-top: 50px;
+    }
+    .about-right-bg img {
+        width: 100%;
+    }
+    .video-icon {
+        left: 259px;
+        bottom: 74px;
+    }
+
+
+    /*--  Portfolio Css --*/
+
+    .portfolio-item-box::before {
+        bottom: -240px;
+    }
+    .service-right-paragraph {
+        margin-top: -57px;
+        margin-bottom: 80px;
+    }
+    .service-right-paragraph p {
+        font-size: 14px;
+        width: 92%;
+    }
+    
+
+    /*--  Donate Css --*/
+
+
+    .section-paragraph.donate-section-paragraph {
+        width: 80%;
+        font-size: 15px;
+    }
+    .donate-heading-title h2 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .donate-paragraph p {
+        font-size: 14px;
+        width: 81%;
+    }
+    .donate-right-bg {
+        margin-top: 50px;
+    }
+    .donate-right-bg img {
+        width: 100%;
+    }
+
+    /*--  Blog Css --*/
+
+    .blog-inner-content {
+        padding: 27px 82px 34px 32px;
+    }
+
+
+    /*--  Testimonial Css --*/
+
+    .testimonial-item-box {
+        padding: 40px 50px 22px 30px;
+    }
+    .testi-paragraph p {
+        font-size: 15px;
+    }
+
+
+    /*--  Team Css --*/
+
+    .team-top-content {
+        margin-top: -55px;
+    }
+    .team-top-content p {
+        font-size: 15px;
+        line-height: 22px;
+        width: 76%;
+        margin-bottom: 60px;
+    }
+    .team-img-thum::before {
+        left: 20px;
+        top: 27px;
+    }
+    .team-social-icon {
+        bottom: -134px;
+        left: 126px;
+    }
+
+    /*--  Footer Css --*/
+    
+    .widgets-company-info p {
+        font-size: 15px;
+        width: 88%;
+    }
+    .widget-title {
+        margin-top: 40px;
+    }
+    .widget-nav-menu p {
+        width: 71%;
+    }
+
+
+    /*================================
+    <--  Start politics About Inner Page Css -->
+    ==================================*/
+
+    .about-page-thum img {
+        width: 100%;
+    }
+    .mission-page-thum img {
+        width: 100%;
+    }
+    .gallery-page-box {
+        padding: 0px 0 19px 0;
+    }
+    .gallery-team-thumb img {
+        width: 100%;
+    }
+    .gallery-page-box::before {
+        left: -79px;
+    }
+    .gallery-page-box::after {
+        left: -46px;
+    }
+    .volunteer-content {
+        display: block;
+    }
+    .volunteer-btn {
+        text-align: left;
+        margin: 20px 0;
+    }
+    .volunteer-follow-left {
+        margin-left: 0;
+    }
+    .counter-img-thum {
+        margin-left: -25px;
+    }
+
+    /*================================
+    <--  Start politics campaigns Inner Page Css -->
+    ==================================*/
+    .campaigns-area {
+        padding: 100px 0 70px;
+    }
+    .campaigns-item-thum img {
+        width: 100%;
+    }
+    .campaigns-btn {
+        margin-bottom: 40px;
+    }
+    .event-thumb {
+        margin-bottom: 30px;
+    }
+    .row.donate_upper {
+        padding: 42px 48px 45px 0;
+    }
+    button.tablink {
+        height: 44px;
+        width: 80px;
+        margin-right: 4px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .company-info-desc p {
+        width: 79%;
+    }
+    .contact-left {
+        padding-left: 0;
+    }
+    .blog-list-area {
+        padding: 100px 0 100px;
+    }
+    .blog-details-main {
+        padding: 0;
+    }
+    .blog-du-btn {
+        display: block;
+    }
+    .row.counter-upper {
+        box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
+    }
+
+
+}
+
+
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+     /*--  Header Css --*/
+
+     .header-area {
+        display: none;
+    }
+
+    /*--  Hero Css --*/
+
+    .hero-active {
+        height: 85vh;
+    }
+    .hero-shape1 {
+        display: none !important;
+    }
+    #customers-hero .owl-nav {
+        display: none;
+    }
+    .hero-content h4 {
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-bottom: 16px;
+    }
+    .hero-content h1 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .politics-hero-desc p {
+        font-size: 13px;
+        line-height: 25px;
+        width: 95%;
+    }
+    .elecson-btn {
+        margin-top: -12px;
+    }
+    .elecson-btn a {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    /*--  Mission Css --*/
+
+    .section-title .section-sub-title {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .section-main-title {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .section-paragraph {
+        font-size: 13px;
+        line-height: 22px;
+        width: 94%;
+    }
+    .mission-content {
+        padding: 16px 30px 15px 32px;
+    }
+    .mission-content h4 {
+        font-size: 18px;
+    }
+    .mission-content p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .section-main-title {
+        font-size: 25px;
+        line-height: 22px;
+    }
+
+    /*--  About Css --*/
+
+    .about-item-box p {
+        font-size: 14px;
+        line-height: 23px;
+        width: 95%;
+    }
+    .about-btn {
+        margin-top: 33px;
+        margin-bottom: 50px;
+    }
+    .about-right-bg img {
+        width: 100%;
+    }
+    .video-icon {
+        left: 156px;
+        bottom: 37px;
+    }
+    .fliping-btn {
+        margin-top: 30px;
+    }
+
+     /*--  Service Css --*/
+
+    .service-back-content {
+        padding: 20px 21px 0px 22px;
+    }
+    .service-right-paragraph {
+        margin-top: -45px;
+    }
+    .service-back-content h4 {
+        font-size: 23px;
+    }
+    .service-back-content p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    /*--  Donate Css --*/
+
+    .section-paragraph.donate-section-paragraph {
+        width: 96%;
+    }
+    .donate-heading-title h2 {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+    .donate-paragraph p {
+        font-size: 13px;
+        line-height: 22px;
+        width: 94%;
+    }
+    .donate-btn .elecson-btn a {
+        padding: 10px 9px;
+        font-size: 12px;
+    }
+    .donate-right-bg img {
+        width: 100%;
+        margin-top: 36px;
+    }
+
+    /*--  Blog Css --*/
+
+    .blog-inner-content {
+        padding: 27px 20px 34px 32px;
+    }
+    .blog-inner-content span {
+        font-size: 15px;
+    }
+    .blog-details-time {
+        left: 32px;
+        bottom: 22px;
+    }
+
+    /*--  Testi Css --*/
+
+    .testimonial-item-box {
+        padding: 40px 28px 22px 30px;
+    }
+    .testi-paragraph p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .testi-author h4 {
+        font-size: 18px;
+    }
+    .team-top-content {
+        margin-top: -58px;
+        margin-bottom: 50px;
+    }
+    .team-top-content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+
+    /*================================
+    <--  Start politics About Inner Page Css -->
+    ==================================*/
+
+
+    .about-page-thum img {
+        width: 100%;
+    }
+    .politics-section-title .section-sub-title {
+        margin-left: 0;
+    }
+    .mission-page-icon {
+        height: 134px;
+    }
+    .row.counter-upper {
+        box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
+    }
+    .gallery-page-box {
+        padding: 0px 0 19px 0;
+    }
+    .gallery-team-thumb img {
+        width: 100%;
+    }
+    .gallery-page-box::before {
+        left: -74px;
+    }
+    .politics-section-title h2 {
+        font-size: 25px;
+        line-height: 26px;
+    }
+
+    .counter-img-thum {
+        margin-left: -28px;
+    }
+    .volunteer-content {
+        display: block;
+    }
+    .volunteer-follow-left {
+        margin-left: 0;
+    }
+    .volunteer-btn {
+        text-align: left;
+        margin: 20px 0;
+    }
+
+
+    /*================================
+    <--  Start politics Campaigns Inner Page Css -->
+    ==================================*/
+
+    
+    .campaigns-item-thum img {
+        width: 100%;
+    }
+    .campaigns-area {
+        padding: 35px 0 100px;
+    }
+    .campaigns-btn {
+        margin-bottom: 30px;
+    }
+    .event-thumb {
+        margin-bottom: 30px;
+    }
+
+
+    /*================================
+    <--  Start politics Donate Inner Page Css -->
+    ==================================*/
+
+
+    .row.donate_upper {
+        padding: 24px 48px 45px 0;
+    }
+    button.tablink {
+        height: 49px;
+        width: 90px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+
+    /*================================
+    <--  Start politics volunteer Inner Page Css -->
+    ==================================*/
+
+
+    .volunteer-thumb img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .forms-title h1 {
+        font-size: 36px;
+    }
+    .contact-left {
+        padding-left: 0;
+    }
+
+    /*================================
+    <--  Start politics Blog Inner Page Css -->
+    ==================================*/
+
+    .blog-down-user-btn {
+        left: 138px;
+        top: 2px;
+    }
+    .blog-details-main {
+        padding: 0;
+    }
+    .blog-du-btn {
+        display: block;
+    }
+    .blog-details-main {
+        background: #fafafa;
+    }
+
+
+
+
+
+
+}
