@@ -69,7 +69,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	left: -36px;
 	width: 52%;
 	height: 100%;
-	background: #e11143;
+	background: #ff8892;
 	transform: skew(-44deg);
 	z-index: -1;
 }
@@ -102,7 +102,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     transition: .4s;
 }
 .header-right-social-icon ul li a:hover {
-	color: #e11143;
+	color: #ff8892;
 }
 
 
@@ -142,7 +142,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 .sticky .elecson-btn a:hover {
     background: #fff;
-    color: #e11143;
+    color: #ff8892;
     border: 2px solid #fff;
 }
 
@@ -179,7 +179,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     display: inline-block;
 }
 .elecson-menu ul li a:hover {
-    color: #e11143;
+    color: #ff8892;
 }
 .elecson-menu ul li a i {
 	font-size: 11px;
@@ -205,7 +205,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	left: 0;
 	width: 218px;
 	background: #fff;
-	border-top: 5px solid #e11143;
+	border-top: 5px solid #ff8892;
 	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 	text-align: left;
 	border-radius: 3px 3px 3px 3px;
@@ -230,7 +230,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .elecson-menu ul li ul.sub-menu li a:hover {
-	background: #e11143;
+	background: #ff8892;
 	color: #fff;
 	display: block;
 }
@@ -301,7 +301,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     display: inline-block;
 }
 .elecson-btn a {
-	background: #e11143;
+	background: #ff8892;
 	color: #fff;
 	padding: 17px 32px;
 	font-size: 17px;
@@ -315,8 +315,8 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 .elecson-btn a:hover {
     background: transparent;
-    border: 2px solid #e11143;
-    color: #e11143;
+    border: 2px solid #ff8892;
+    color: #ff8892;
 }
 .elecson-btn a i {
 	padding-left: 6px;
@@ -396,14 +396,14 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .hero-content h4 {
-	color: #e11143;
+	color: #ff8892;
 	font-size: 25px;
 	letter-spacing: 3px;
 	font-weight: 600;
 	margin-bottom: 25px;
 }
 .hero-content h1 span {
-	color: #e11143;
+	color: #ff8892;
 }
 .hero-content h1 {
 	color: #fff;
@@ -466,13 +466,13 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	background: #fff;
     -webkit-text-stroke-width: 1px;
 	color: transparent;
-	-webkit-text-stroke-color: #e11143;
+	-webkit-text-stroke-color: #ff8892;
 }
 #customers-hero .owl-nav .owl-prev:hover {
 	background: #fff;
     -webkit-text-stroke-width: 1px;
 	color: transparent;
-	-webkit-text-stroke-color: #e11143;
+	-webkit-text-stroke-color: #ff8892;
 }
 
 #customers-hero .owl-nav .owl-next {
@@ -539,7 +539,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	height: 2px;
 	left: 0;
 	bottom: -18px;
-	background: #e11143;
+	background: #ff8892;
 }
 .mission-shape1 {
 	position: absolute;
@@ -554,7 +554,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     animation: zoom-in-zoom-out 4.50s ease infinite;
 }
 .mission-item-box:hover .mission-content h4 {
-    color: #e11143;
+    color: #ff8892;
 }
 .mission-item-box:hover .mission-img-thum img {
 	-webkit-transform: scale(1.2);
@@ -657,7 +657,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 .video-icon a span {
 	font-size: 14px;
-	color: #e11143;
+	color: #ff8892;
 }
 .slider10 .video-icon a {
   border-radius: 0;
@@ -749,7 +749,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	width: 65px;
 	height: 65px;
 	display: inline-block;
-	background: #e11143;
+	background: #ff8892;
 	line-height: 65px;
 	text-align: center;
 	border-radius: 5px;
@@ -766,7 +766,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 .back-card {
 	width: 100%;
 	height: 100%;
-	background: #e11143;
+	background: #ff8892;
 	border-radius: 5px;
 	backface-visibility: hidden;
 	transform: rotateX(180deg);
@@ -796,7 +796,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 .fliping-btn a:hover {
 	background: #fff;
-	color: #e11143;
+	color: #ff8892;
 	border: 2px solid transparent;
 }
 .fliping-card:hover > .front-card {
@@ -984,7 +984,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 .service-back-card {
     width: 100%;
     height: 100%;
-    border: 1px solid #e11143;
+    border: 1px solid #ff8892;
     border-radius: 5px;
     backface-visibility: hidden;
     transform: rotateY(-180deg);
@@ -1045,7 +1045,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 .donate-up-icon span {
 	background: #fff;
-	color: #e11143;
+	color: #ff8892;
 	padding: 8px 15px;
 	border-radius: 3px;
 }
@@ -1096,14 +1096,14 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	margin-top: 5px;
 }
 .donate-count-number h6 {
-	color: #e11143;
+	color: #ff8892;
 	margin-right: 6px;
 	font-size: 20px;
 	font-weight: 500;
 	margin-top: 0;
 }
 .donate-count-number span {
-	color: #e11143;
+	color: #ff8892;
 }
 .donate-count-item p {
 	opacity: 0.800;
@@ -1171,7 +1171,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	bottom: 35px;
 }
 .blog-details-time .blog-day {
-	background: #e11143;
+	background: #ff8892;
 	color: #fff;
 	padding: 10px 16px;
 	border-radius: 5px;
@@ -1179,7 +1179,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 .blog-details-time .blog-year {
 	background: #fff;
-	color: #e11143;
+	color: #ff8892;
 	padding: 10px 22px;
 	margin-left: -6px;
 	font-weight: 600;
@@ -1218,7 +1218,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	padding: 14px 18px;
 	border: 1px solid #616161;
 	background: transparent;
-	color: #e11143;
+	color: #ff8892;
 	font-size: 15px;
 	font-weight: 400;
     -webkit-transition: .4s;
@@ -1226,7 +1226,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 .blog-btn span {
 	margin-right: 0;
-	color: #e11143;
+	color: #ff8892;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -1234,7 +1234,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     color: #fff;
 }
 .blog-item-box:hover .blog-inner-content h4  {
-    color: #e11143;
+    color: #ff8892;
 }
 .blog-item-box:hover .blog-img-thum img {
     -webkit-transform: scale(1.2);
@@ -1242,16 +1242,16 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     transform: scale(1.2);
 }
 .blog-item-box:hover {
-	border-bottom: 4px solid #e11143;
+	border-bottom: 4px solid #ff8892;
 	border-radius: 5px;
 }
 .blog-item-box:hover .blog-inner-content p {
-	color: #e11143;
+	color: #ff8892;
 }
 .blog-item-box:hover .blog-btn a {
-	background: #e11143;
+	background: #ff8892;
 	color: #fff;
-	border: 1px solid #e11143;
+	border: 1px solid #ff8892;
 }
 .blog-item-box:hover .blog-btn a i {
     color: #fff;
@@ -1272,7 +1272,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	margin: 0 3px;
 }
 #customers-blog.owl-carousel .owl-dot.active {
-	background: #e11143;
+	background: #ff8892;
 }
 
 
@@ -1299,7 +1299,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #e11143;
+	background: #ff8892;
 	border-radius: 10px 0px 0px 10px;
 	transition: .7s;
 	z-index: -1;
@@ -1477,7 +1477,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 .widget-social-icon ul li a {
 	background: #fff;
-	color: #e11143;
+	color: #ff8892;
 	width: 40px;
 	height: 40px;
 	display: block;
@@ -1488,7 +1488,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	transition: .4s;
 }
 .widget-social-icon ul li a:hover {
-	background: #e11143;
+	background: #ff8892;
 	color: #fff;
 }
 .widget-title {
@@ -1512,7 +1512,7 @@ ul.footer-widget-list li a {
 	transition: .4s;
 }
 ul.footer-widget-list li a:hover {
-    color: #e11143;
+    color: #ff8892;
 }
 .widget-nav-menu p {
 	color: #fefefe;
@@ -1531,7 +1531,7 @@ ul.footer-widget-list li a:hover {
 	color: #616161;
 }
 .widget-subscribe-btn a {
-	background: #e11143;
+	background: #ff8892;
 	color: #fff;
 	padding: 16px 63px;
 	border-radius: 5px;
@@ -1789,7 +1789,7 @@ ul.footer-widget-list li a:hover {
 	transition: .5s;
 }
 .gallery-team-social-icon a:hover {
-	background: #e11143;
+	background: #ff8892;
 	color: #fff;
 }
 .gallery-team-content a {
@@ -2111,7 +2111,7 @@ button.tablink:hover {
 	z-index: 1;
 }
 .contact-form-box {
-	border-top: 5px solid #e11143 !important;
+	border-top: 5px solid #ff8892 !important;
 	border-radius: 10px 10px 0px 0px;
 	box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
 	border: none;
@@ -2263,9 +2263,9 @@ h5.check-title {
     color: rgba(100,100,100,0.8);
 }
 .contact-form-button button {
-    background: #E11143;
+    background: #ff8892;
     color: #fff;
-    border: 1px solid #E11143;
+    border: 1px solid #ff8892;
     padding: 11px 33px;
     margin-top: 35px;
     position: relative;
@@ -2273,7 +2273,7 @@ h5.check-title {
     transition: .5s;
 }
 .contact-form-button button:hover {
-    color: #E11143;
+    color: #ff8892;
 }
 .contact-form-button button:before {
     position: absolute;
@@ -2339,7 +2339,7 @@ h5.check-title {
 	display: block;
 }
 .campaigns-date span i {
-	color: #e11143;
+	color: #ff8892;
 	margin-right: 6px;
 }
 .campaigns-btn {
@@ -2748,7 +2748,7 @@ button.icons {
     top: 0;
     height: 60px;
     width: 60px;
-    background: #E11143;
+    background: #ff8892;
     border-radius: 0 4px 4px 0;
 }
 
@@ -2788,7 +2788,7 @@ button.icons {
     top: 20px;
     height: 25px;
     width: 5px;
-    background: #E11143;
+    background: #ff8892;
 }
 
 /*categories menu*/
@@ -2833,17 +2833,17 @@ button.icons {
 }
 
 .widget-categories-menu ul li:hover a span {
-    background: #E11143;
+    background: #ff8892;
     color: #fff;
 }
 
 .widget-categories-menu ul li:hover a {
-    color: #E11143;
+    color: #ff8892;
 }
 
 .pdf-button a {
     display: block;
-    background: #E11143;
+    background: #ff8892;
     padding: 15px 30px;
     font-weight: 700;
     color: #fff;
@@ -2892,7 +2892,7 @@ button.icons {
 }
 
 .sidber-widget-recent-post .recent-widget-content a {
-    color: #E11143;
+    color: #ff8892;
     font-size: 18px;
 }
 
@@ -2919,7 +2919,7 @@ button.icons {
 }
 
 .widget-achivement ul li a:hover{
-    color: #E11143;
+    color: #ff8892;
 }
 
 /* Sidber Widget Gallery CSS */
@@ -2952,8 +2952,8 @@ button.icons {
 
 .widget-tags a:hover{
     color: #fff;
-    border-color: #E11143;
-    background: #E11143;
+    border-color: #ff8892;
+    background: #ff8892;
 }
 
 .widget-tags a:hover:before{
@@ -2968,7 +2968,7 @@ button.icons {
     box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
 }
 .blog-details-meta {
-    background: #E11143;
+    background: #ff8892;
     padding: 16px 30px;
 }
 
@@ -3042,7 +3042,7 @@ button.icons {
     line-height: 31px;
     border-radius: 100%;
     margin-right: 15px;
-    color: #E11143;
+    color: #ff8892;
 }
 
 .blog-detials-area .blog-content {
@@ -3051,7 +3051,7 @@ button.icons {
 
 .blog-details-button a {
     display: inline-block;
-    border: 2px solid #E11143;
+    border: 2px solid #ff8892;
     padding: 3px 20px;
     position: relative;
     z-index: 1;
@@ -3067,7 +3067,7 @@ button.icons {
     top: -1px;
     height: 104%;
     width: 104%;
-    background: #E11143;
+    background: #ff8892;
     z-index: -1;
     border-radius: 3px;
     transition: .5s;
@@ -3077,19 +3077,19 @@ button.icons {
     background: transparent;
     transition: .5s;
     margin-left: 10px;
-    color: #E11143;
+    color: #ff8892;
 }
 .blog-details-button a.active:before{
     background: transparent;
 }
 
 .blog-details-button a.active:hover:before{
-    background: #E11143;
+    background: #ff8892;
 }
 
 .blog-details-button a.active:hover{
     color: #fff;
-    border-color: #E11143;
+    border-color: #ff8892;
 }
 
 .blog-details-social {
@@ -3098,7 +3098,7 @@ button.icons {
 
 .blog-details-social a {
     display: inline-block;
-    border: 2px solid #E11143;
+    border: 2px solid #ff8892;
     height: 40px;
     width: 40px;
     line-height: 38px;
@@ -3107,12 +3107,12 @@ button.icons {
     font-size: 14px;
     transition: .5s;
     margin-left: 5px;
-    color: #E11143;
+    color: #ff8892;
 }
 
 .blog-details-social a:hover{
-    background: #E11143;
-    border-color: #E11143;
+    background: #ff8892;
+    border-color: #ff8892;
     color: #fff;
 }
 
@@ -3125,7 +3125,7 @@ button.icons {
 }
 
 .blog-details-author-inner {
-    background: #E11143;
+    background: #ff8892;
     padding: 30px 30px 24px;
 }
 
@@ -3177,7 +3177,7 @@ button.icons {
 }
 
 .blog-details-comment-reply a {
-    background: #E11143;
+    background: #ff8892;
     padding: 3px 20px;
     font-size: 14px;
     font-weight: 600;
@@ -3237,14 +3237,14 @@ button.icons {
     color: #fff;
     letter-spacing: 1px;
     font-weight: 500;
-    background: #E11143;
-    border: 1px solid #E11143;
+    background: #ff8892;
+    border: 1px solid #ff8892;
     transition: .5s;
 }
 
 .input-button button:hover {
-    border: 1px solid #E11143;
-    color: #E11143;
+    border: 1px solid #ff8892;
+    color: #ff8892;
     background: none;
 }
 
@@ -3429,7 +3429,7 @@ button.icons {
 	width: 100%;
 	-webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-	background: #e11143 !important;
+	background: #ff8892 !important;
 	transition: .5s !important;
 	z-index: 922;
 	-webkit-animation: 300ms running fadeInDown;
@@ -4244,7 +4244,7 @@ ul.list-style-one li a:hover {
 	margin-top: -200px;
 	border-radius: 50%;
 	text-align: center;
-	background-color: #e11143;
+	background-color: #ff8892;
 	width: 70px;
 	cursor: pointer;
 	box-shadow: 0 0 10px rgba(0,0,0,0.05);
@@ -4330,7 +4330,7 @@ ul.list-style-one li a:hover {
 	background: transparent;
 	text-align: center;
 	font-size: 24px;
-	color: #e11143;
+	color: #ff8892;
 	padding: 0;
 	cursor: pointer;
 	-webkit-transition: all 500ms ease;
@@ -4427,7 +4427,7 @@ button.close-search i {
 
 span.flaticon-multiply i {
 	display: inline-block;
-	color: #e11143;
+	color: #ff8892;
 }
 
 
@@ -4629,7 +4629,7 @@ span.flaticon-multiply i {
     text-align: center;
     line-height: 46px;
     font-size: 18px;
-    color: #e11143;
+    color: #ff8892;
     left: 0;
     top: 0;
     height: 46px;
@@ -4676,7 +4676,7 @@ span.flaticon-multiply i {
 }
 
 .prgoress_indicator svg.progress-circle path {
-    stroke: #e11143;
+    stroke: #ff8892;
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear !important;
