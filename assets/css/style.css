@@ -3033,7 +3033,8 @@ button.icons {
     margin-bottom: 15px;
 }
 
-.blog-details-content-list p i {
+.blog-details-content-list p i,
+.blog-details-content-list .promise i {
     font-size: 14px;
     height: 32px;
     width: 32px;
@@ -4736,4 +4737,32 @@ span.flaticon-multiply i {
     background: transparent;
     border: 2px solid #ff8892;
     color: #ff8892;
+}
+
+#about-img {
+    object-fit: contain;
+    width: 558px;
+    height: 617px;
+}
+
+.promise {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#promise-list-title {
+    margin-bottom: 27px;
+}
+
+.promise p {
+    margin: 21px 0 0 0;
+}
+
+.about-btn {
+    margin-top: 27px;
+}
+
+.blog-details-content-list .promise:first-of-type p {
+    margin-top: 0;
 }
