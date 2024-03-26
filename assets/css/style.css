@@ -489,7 +489,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .section-title .section-sub-title {
 	font-size: 17px;
-	color: #e01142;
+	color: #ff8892;
 	font-weight: 500;
 	margin-bottom: 15px;
 }
@@ -1006,7 +1006,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	margin-top: 14px;
 	margin-bottom: 16px;
 	font-size: 24px;
-	color: #e01142;
+	color: #ff8892;
 }
 .service-back-content p {
 	opacity: 0.902;
@@ -1391,7 +1391,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	height: 90%;
 	left: 15px;
 	top: 20px;
-	background: #e01143;
+	background: #ff8892;
 	/* opacity: .7; */
 	border-radius: 5px;
 	visibility: hidden;
@@ -1426,7 +1426,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     transition: .4s;
 }
 .team-social-icon ul li a:hover {
-	color: #e01143;
+	color: #ff8892;
 }
 .team-content h4 {
 	font-size: 24px;
@@ -1801,7 +1801,7 @@ ul.footer-widget-list li a:hover {
 }
 .gallery-team-content p {
 	font-size: 16px;
-	color: #e01142;
+	color: #ff8892;
 	font-weight: 400;
 	font-family: "Arimo";
 }
@@ -1871,7 +1871,7 @@ button.tablink {
     font-family: "Work Sans";
 }
 button.tablink:hover {
-    background: #e01142;
+    background: #ff8892;
     color: #fff;
 }
 
@@ -1950,7 +1950,7 @@ button.tablink:hover {
   background: #9faab7;
 }
 .option-input:checked {
-    background: #e01142;
+    background: #ff8892;
 }
 
 .option-input:checked::before {
@@ -1962,7 +1962,7 @@ button.tablink:hover {
     align-items: center;
     left: -5px;
     top: -5px;
-    border: 1px solid #e01142;
+    border: 1px solid #ff8892;
     border-radius: 50%;
     z-index: -1;
 }
@@ -2333,7 +2333,7 @@ h5.check-title {
 }
 .campaigns-date span {
 	font-size: 15px;
-	color: #e01142;
+	color: #ff8892;
 	font-weight: 400;
 	margin-top: 20px;
 	display: block;
@@ -2354,8 +2354,8 @@ h5.check-title {
 	border-bottom: 1px solid #a1898936;
 }
 .campaigns-btn a:hover {
-	color: #E01142;
-	border-bottom: 1px solid #E01142;
+	color: #ff8892;
+	border-bottom: 1px solid #ff8892;
 }
 .campaigns-btn a i {
 	color: #012549;
@@ -2367,7 +2367,7 @@ h5.check-title {
 	transition: .5s;
 }
 .campaigns-btn a:hover i {
-	color: #E01142;
+	color: #ff8892;
 }
 
 
@@ -2587,7 +2587,7 @@ h3.our-campaign-team-title {
     top: 14px;
     width: 30px;
     height: 2px;
-    background: #E01142;
+    background: #ff8892;
 }
 /*event text*/
 .event-text2 {
@@ -2602,7 +2602,7 @@ h3.our-campaign-team-title {
 
 .event-text2 p i {
     font-size: 15px;
-    color: #E01142;
+    color: #ff8892;
     padding-right: 8px;
 }
 
@@ -2668,12 +2668,12 @@ h3.our-campaign-team-title {
 }
 
 .rpost-content h4 a:hover {
-    color: #e01142;
+    color: #ff8892;
 }
 
 .rpost-title span {
     font-size: 14px;
-    color: #e01142;
+    color: #ff8892;
     font-weight: 400;
     font-family: "Arimo";
     margin-top: 7px;
@@ -4680,4 +4680,60 @@ span.flaticon-multiply i {
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear !important;
+}
+
+.placeholder {
+    color: #a5460633;
+    animation: placeholder 2s infinite;
+    opacity: 0.5;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+}
+
+@-webkit-keyframes placeholder {
+    0% { 
+        opacity: 0.5;
+        box-shadow: 0 0 0 0px rgba(165, 70, 6, 0.2);
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+        box-shadow: 0 0 0 20px rgba(165, 70, 6, 0);
+    }
+}
+
+.about-area .widget-contact-form form input {
+    color: #06294f;
+    border-color: #06294f;
+}
+
+.about-area .widget-contact-form form input::placeholder {
+    color: #06294f;
+}
+
+#email-newsletter-form a {
+    font-size: 14px;
+    padding: 14px 32px;
+}
+
+#email-newsletter-form button {
+    background: #ff8892;
+    color: #fff;
+    padding: 14px 32px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 5px;
+    line-height: 17px;
+    border: 2px solid transparent;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#email-newsletter-form button:hover {
+    background: transparent;
+    border: 2px solid #ff8892;
+    color: #ff8892;
 }
