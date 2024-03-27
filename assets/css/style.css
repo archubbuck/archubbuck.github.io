@@ -4766,3 +4766,60 @@ span.flaticon-multiply i {
 .blog-details-content-list .promise:first-of-type p {
     margin-top: 0;
 }
+
+.header-center-title ul li {
+    color: #ffffff;
+    list-style: none;
+    margin-right: 20px;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.header-center-title ul li a,
+.header-center-title ul li a:visited {
+    color: #ffffff;
+    list-style: none;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.header-center-title ul li a:hover {
+    color: #ff8892;
+}
+
+.header-left-address ul li {
+    color: #06294f;
+    list-style: none;
+    margin-right: 20px;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.header-left-address ul li a,
+.header-left-address ul li a:visited {
+    /* color: #06294f;
+    list-style: none;
+    opacity: 1;
+    font-size: 15px; */
+    list-style: none;
+    opacity: 1;
+    background: #fff;
+    color: #06294f;
+    padding: 7px 16px;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 5px;
+    line-height: 40px;
+    border: 2px solid #06294f;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.header-left-address ul li a:hover {
+    background: transparent;
+    color: #06294f;
+}
+
+.mean-container .mean-bar::before {
+    content: 'The Committee to Elect Sydnie Hutchinson'
+}
