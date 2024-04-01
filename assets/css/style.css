@@ -4823,3 +4823,192 @@ span.flaticon-multiply i {
 .mean-container .mean-bar::before {
     content: 'The Committee to Elect Sydnie Hutchinson'
 }
+
+/******* CUSTOM ********/
+
+/*================================
+ <--Start elecson  Mission Section  Css-->
+=================================*/
+.our-mission {
+    padding: 40px 0 52px;
+}
+
+.our-mission li.nav-item {
+    margin-right: 15px;
+}
+
+
+.our-mission .nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.our-mission .nav-link {
+    display: block;
+    padding: 7px 24px;
+    text-decoration: none;
+    /* color: #012549; */
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Arimo";
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    /* border: 1px solid #012549 !important; */
+    border: 1px solid #E11142;
+}
+
+.our-mission .active.nav-link:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 100%;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-top: 12px solid #E11142;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    transition: .5s;
+    background: radial-gradient(black, transparent);
+}
+
+.our-mission .nav-pills .nav-link.active, .our-mission .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #E11143;
+    position: relative;
+    z-index: 1;
+    /* border: 1px solid #E11143 !important; */
+    border: 1px solid #E11143;
+}
+
+.our-mission .active li.nav-item {
+    border: 1px solid #E11143;
+}
+
+.our-mission .nav-link:focus, .our-mission .nav-link:hover {
+    /* color: #012549; */
+    border: 1px solid #E11143;
+    background-color: #E11143;
+}
+
+.our-mission .tab-content {
+    margin-top: 26px;
+}
+
+.our-mission p.mission-description {
+    width: 85%;
+    color: #fff;
+}
+
+.our-mission p.mission-description2 {
+    width: 85%;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.our-mission .mission-thumb {
+    position: relative;
+    z-index: 1;
+}
+
+.our-mission .mission-shape {
+    position: absolute;
+    top: -144px;
+    right: -323px;
+    z-index: -1;
+}
+
+.our-mission .section-title {
+    margin-bottom: 36px;
+}
+
+.our-mission .section-title.style1 {
+    margin-bottom: 33px;
+}
+
+.our-mission .section-title.style2 {
+    margin-bottom: 10px;
+}
+
+.our-mission .section-title.style3 {
+    margin-bottom: 30px;
+}
+
+.our-mission .section-sub-title h4 {
+    font-size: 18px;
+    /* color: #012549; */
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+    margin-bottom: 13px;
+}
+
+.our-mission .section-sub-title.style1 h4 {
+    color: #fff;
+}
+
+
+.our-mission .section-main-title h1 {
+    font-size: 46px;
+    line-height: 60px;
+    /* color: #012549; */
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.our-mission .section-main-title.style1 {
+    margin-bottom: 24px;
+}
+
+.our-mission .section-main-title.style1 h1 {
+    font-size: 46px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Work Sans";
+}
+
+.our-mission .section-main-title.style2 h1 {
+    color: #fff;
+}
+
+.our-mission p.section-description.style1 {
+    font-size: 16px;
+    /* color: #c7c7c7; */
+    color: #fff;
+    font-weight: 400;
+    font-family: "Arimo";
+    width: 88%;
+}
+
+.our-mission .section-title.text-center {
+    margin-bottom: 52px;
+}
+
+.our-mission .section-title.text-center .section-main-title {
+    margin-bottom: 11px;
+}
+
+.our-mission .section-title.text-center p.section-description {
+    width: 76%;
+    text-align: center;
+    margin: auto;
+}
+
+.our-mission .section-title.text-center.style p.section-description {
+    width: 59%;
+    text-align: center;
+    margin: auto;
+}
+
+.our-mission .section-title.upper-style {
+    margin-bottom: 22px;
+}
+
+.our-mission .section-main-title.left-style {
+    margin-bottom: 30px;
+}
+
+.our-mission .section-main-title.left-style1 h1 {
+    color: #fff;
+}
