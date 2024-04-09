@@ -118,7 +118,8 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 	display: none;
 }
 .sticky .header-logo2 {
-	display: inherit !important;
+	/* display: inherit !important; */
+	display: inherit;
 }
 .sticky .elecson-menu ul li a {
 	color: #fff;
@@ -1745,7 +1746,7 @@ ul.footer-widget-list li a:hover {
 	z-index: -1;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
-	border-top: 50px solid #E11142;
+	border-top: 50px solid #ff8892;
 	border-left: 35px solid transparent;
 	border-right: 36px solid transparent;
 	transition: .5s;
@@ -1759,7 +1760,7 @@ ul.footer-widget-list li a:hover {
 	bottom: 0px;
 	width: 28%;
 	height: 1px;
-	background: #E11142;
+	background: #ff8892;
 	transform: rotate(43deg);
 	opacity: 0;
 	transition: .5s;
@@ -4821,7 +4822,8 @@ span.flaticon-multiply i {
 }
 
 .mean-container .mean-bar::before {
-    content: 'The Committee to Elect Sydnie Hutchinson'
+    content: 'The Committee to Elect Sydnie Hutchinson';
+    font-size: 1.25rem;
 }
 
 /******* CUSTOM ********/
@@ -4854,7 +4856,7 @@ span.flaticon-multiply i {
     position: relative;
     z-index: 1;
     /* border: 1px solid #012549 !important; */
-    border: 1px solid #E11142;
+    border: 1px solid #ff8892;
 }
 
 .our-mission .active.nav-link:before {
@@ -4865,7 +4867,7 @@ span.flaticon-multiply i {
     z-index: -1;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    border-top: 12px solid #E11142;
+    border-top: 12px solid #ff8892;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     transition: .5s;
@@ -4874,21 +4876,21 @@ span.flaticon-multiply i {
 
 .our-mission .nav-pills .nav-link.active, .our-mission .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #E11143;
+    background-color: #ff8892;
     position: relative;
     z-index: 1;
-    /* border: 1px solid #E11143 !important; */
-    border: 1px solid #E11143;
+    /* border: 1px solid #ff8892 !important; */
+    border: 1px solid #ff8892;
 }
 
 .our-mission .active li.nav-item {
-    border: 1px solid #E11143;
+    border: 1px solid #ff8892;
 }
 
 .our-mission .nav-link:focus, .our-mission .nav-link:hover {
     /* color: #012549; */
-    border: 1px solid #E11143;
-    background-color: #E11143;
+    border: 1px solid #ff8892;
+    background-color: #ff8892;
 }
 
 .our-mission .tab-content {
@@ -5011,4 +5013,8 @@ span.flaticon-multiply i {
 
 .our-mission .section-main-title.left-style1 h1 {
     color: #fff;
+}
+
+.mean-container .mean-bar {
+    background: #ff8892;
 }
