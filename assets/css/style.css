@@ -5022,3 +5022,9 @@ span.flaticon-multiply i {
 .text-color-primary {
     color: #06294f;
 }
+
+::selection {
+    background: #ff8892;
+    color: #06294f;
+    text-shadow: none;
+}
