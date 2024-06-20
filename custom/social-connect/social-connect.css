@@ -1,0 +1,242 @@
+.social-connect {
+    background: rgba(255, 136, 146, .3);
+  background: linear-gradient(
+    to right,
+    rgba(255, 136, 146, .3),rgba(6, 41, 79, .3)
+  );
+}
+
+.social-connect-widget-container {
+    padding: 30px;
+}
+
+.social-connect-swiper-container {
+    position: relative;
+}
+
+.social-connect-swiper-button-left {
+    left: 0;
+    top: 50%;
+}
+
+.social-connect-swiper-button.social-connect-swiper-button-left svg {
+    left: 13px;
+    top: 10px;
+    transform: rotate(-180deg);
+}
+
+.social-connect-swiper-button-right {
+    right: -40px;
+    top: 50%;
+}
+
+.social-connect-swiper-button svg {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-connect-swiper-button {
+    fill-opacity: .5;
+    background: #ffffff;
+    border: 1px solid #d6dae4;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .05), 0 0 1px rgba(0, 0, 0, .25);
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    z-index: 998 !important;
+}
+
+.social-connect-swiper-container > .social-connect-swiper {
+    padding: 10px 0;
+}
+
+.social-connect-swiper-horizontal {
+    touch-action: pan-y;
+}
+
+.social-connect-swiper {
+    display: block;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.social-connect-swiper-wrapper {
+    align-items: flex-start;
+    box-sizing: initial;
+    display: flex;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    transition-timing-function: initial;
+    width: 100%;
+    z-index: 1;
+}
+
+.social-connect-swiper-item {
+    display: block;
+    flex-shrink: 0;
+    height: unset;
+    position: relative;
+    transition-property: transform;
+    width: 352.75px;
+    margin-right: 10px;
+    align-self: stretch;
+}
+
+.social-connect-swiper-backface-hidden .social-connect-swiper-item {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+.social-connect-card {
+    background-color: #fff;
+    border: 1px solid #d6dae4;
+    border-radius: 15px;
+    color: #111827;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    height: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+.social-connect-text-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 60%;
+    padding: 20px;
+    width: 100%;
+}
+
+.social-connect-media-box {
+    background: #eef1f7;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.social-connect-box-items, .social-connect-box-items-inner {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.social-connect-box-items {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-connect-logo {
+    height: 20px;
+    text-align: left;
+}
+
+.social-connect-avatar {
+    border-radius: 50%;
+    height: 40px;
+    object-fit: cover;
+    width: 40px;
+}
+
+.social-connect-details {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: space-between;
+}
+
+.social-connect-username {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #000000;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16px;
+    text-align: left;
+    width: 100%;
+    word-break: break-all;
+}
+
+.social-connect-date {
+    word-break: break-word;
+    font-size: 12px;
+    line-height: 14px;
+    opacity: .6;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #000000;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.social-connect-stars {
+    display: flex;
+    gap: 4px;
+    justify-content: left;
+    line-height: 14px;
+    text-align: left;
+}
+
+.social-connect-star:not(:last-child) {
+    margin-right: 4px;
+}
+
+.social-connect-text-container {
+    word-break: break-word;
+}
+
+.social-connect-text {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    font-size: 14px;
+    gap: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.social-connect-caption-text {
+    color: #000000;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.social-connect-text-toggle {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.social-connect-photo {
+    aspect-ratio: auto;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    width: 100%;
+}
